@@ -1,0 +1,2690 @@
+[
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "039b48bd588f0fdfa9817ba88fe7e591913018a8",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.85709834346168,
+        2.340159486521991
+      ],
+      "deno_cs": "LA MONNAIE",
+      "cie": 4,
+      "tel_feu": "01 43 54 89 10",
+      "geometry": {
+        "coordinates": [
+          2.340159486521991,
+          48.85709834346168
+        ],
+        "type": "Point"
+      },
+      "adresse": "Face 11 quai Conti 75006 Paris",
+      "tel_auto": "35 041",
+      "cs": "MONN",
+      "em_grpt": "0",
+      "tel_ville": "01 43 54 64 36"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.340159486521991,
+        48.85709834346168
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "bbf69f73835fba7eaa4ac69bb971f32d1b094070",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.96571252899425,
+        2.569698732484958
+      ],
+      "deno_cs": "TREMBLAY-EN-FRANCE",
+      "cie": 13,
+      "tel_feu": "01 48 60 69 48",
+      "geometry": {
+        "coordinates": [
+          2.569698732484958,
+          48.96571252899425
+        ],
+        "type": "Point"
+      },
+      "adresse": "Sn chemin des Vaches 93290 Tremblay",
+      "tel_auto": "35 133",
+      "cs": "TREM",
+      "em_grpt": "0",
+      "tel_ville": "01 48 60 61 10"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.569698732484958,
+        48.96571252899425
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "e488ed35c067deed1c96cb8b89a6f3a743af7347",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.93065947179935,
+        2.54744213526183
+      ],
+      "deno_cs": "LIVRY-GARGAN",
+      "cie": 14,
+      "tel_feu": "01 48 83 56 40",
+      "geometry": {
+        "coordinates": [
+          2.54744213526183,
+          48.93065947179935
+        ],
+        "type": "Point"
+      },
+      "adresse": "43 ave Voltaire 93190 Livry-Gargan",
+      "tel_auto": "35 142",
+      "cs": "LIVR",
+      "em_grpt": "0",
+      "tel_ville": "01 43 83 58 26"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.54744213526183,
+        48.93065947179935
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "119538aa269ee22f9c28240b5d6b8ecc8ad36cfa",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.85320517360145,
+        2.523911983990014
+      ],
+      "deno_cs": "NEUILLY-SUR-MARNE",
+      "cie": 24,
+      "tel_feu": "01 43 08 09 41",
+      "geometry": {
+        "coordinates": [
+          2.523911983990014,
+          48.85320517360145
+        ],
+        "type": "Point"
+      },
+      "adresse": "9 ave du Perche 93330 Neuilly/Marne",
+      "tel_auto": "35 241",
+      "cs": "NEUI",
+      "em_grpt": "0",
+      "tel_ville": "01 43 08 14 34"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.523911983990014,
+        48.85320517360145
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "a4441e40a06ff25c87f7f7978deffcbadc51dff0",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.905169681219505,
+        2.490545080160129
+      ],
+      "deno_cs": "BONDY",
+      "cie": 14,
+      "tel_feu": "01 48 47 01 33",
+      "geometry": {
+        "coordinates": [
+          2.490545080160129,
+          48.905169681219505
+        ],
+        "type": "Point"
+      },
+      "adresse": "6-8 ave de Verdun 93140 Bondy",
+      "tel_auto": "35 141",
+      "cs": "BOND",
+      "em_grpt": "0",
+      "tel_ville": "01 41 55 54 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.490545080160129,
+        48.905169681219505
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "75420b348e9f0c82bab5fa1bdb713264256bdf51",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.96599379694236,
+        2.366756980717588
+      ],
+      "deno_cs": "PIERREFITTE",
+      "cie": 26,
+      "tel_feu": "01 48 26 43 65",
+      "geometry": {
+        "coordinates": [
+          2.366756980717588,
+          48.96599379694236
+        ],
+        "type": "Point"
+      },
+      "adresse": "3-5 rue Etienne Dollet 93380 Pierrefitte",
+      "tel_auto": "35 263",
+      "cs": "PIER",
+      "em_grpt": "0",
+      "tel_ville": "01 49 71 54 08"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.366756980717588,
+        48.96599379694236
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "884923e31ce067ad589cf3ce93dc185fc510fa47",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.94326618372791,
+        2.444483496889551
+      ],
+      "deno_cs": "BLANC MENIL",
+      "cie": 13,
+      "tel_feu": "01 48 67 32 80",
+      "geometry": {
+        "coordinates": [
+          2.444483496889551,
+          48.94326618372791
+        ],
+        "type": "Point"
+      },
+      "adresse": "76 ave Aristide Briand 93150 Blanc-Mesnil",
+      "tel_auto": "35 131",
+      "cs": "BLME",
+      "em_grpt": "0",
+      "tel_ville": "01 48 67 42 89"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.444483496889551,
+        48.94326618372791
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "7240c6cfe3608e99421cce699f2fdeba9fef549f",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.91092439551446,
+        2.381437589310886
+      ],
+      "deno_cs": "AUBERVILLIERS",
+      "cie": 26,
+      "tel_feu": "01 48 52 03 42",
+      "geometry": {
+        "coordinates": [
+          2.381437589310886,
+          48.91092439551446
+        ],
+        "type": "Point"
+      },
+      "adresse": "47-49 rue de la commune de Paris 93300 Aubervilliers",
+      "tel_auto": "35 261",
+      "cs": "AUBE",
+      "em_grpt": "0",
+      "tel_ville": "01 48 33 72 11"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.381437589310886,
+        48.91092439551446
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "a5a76df36fe0eb70619560806ebf274766903475",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.89114358352799,
+        2.333407251299099
+      ],
+      "deno_cs": "MONTMARTRE",
+      "cie": 9,
+      "tel_feu": "01 46 27 35 55",
+      "geometry": {
+        "coordinates": [
+          2.333407251299099,
+          48.89114358352799
+        ],
+        "type": "Point"
+      },
+      "adresse": "12 rue Carpeaux 75018 Paris",
+      "tel_auto": "35 090",
+      "cs": "MTMA",
+      "em_grpt": "1",
+      "tel_ville": "01 42 26 83 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.333407251299099,
+        48.89114358352799
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "759a72fda728befd9ad4db4c5be718fccb208781",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.84422457721457,
+        2.290916294992508
+      ],
+      "deno_cs": "GRENELLE",
+      "cie": 6,
+      "tel_feu": "01 45 78 74 52",
+      "geometry": {
+        "coordinates": [
+          2.290916294992508,
+          48.84422457721457
+        ],
+        "type": "Point"
+      },
+      "adresse": "6 place Violet 75015 Paris",
+      "tel_auto": "35 060",
+      "cs": "GREN",
+      "em_grpt": "0",
+      "tel_ville": "01 45 78 77 07"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.290916294992508,
+        48.84422457721457
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "368dfd8ab6092b5ca97ddf3fceca572b479c2d84",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.83121132604464,
+        2.318631985254099
+      ],
+      "deno_cs": "PLAISANCE",
+      "cie": 3,
+      "tel_feu": "01 45 43 00 51",
+      "geometry": {
+        "coordinates": [
+          2.318631985254099,
+          48.83121132604464
+        ],
+        "type": "Point"
+      },
+      "adresse": "45 ave Villemin 75014 Paris",
+      "tel_auto": "35 032",
+      "cs": "PLAI",
+      "em_grpt": "0",
+      "tel_ville": "01 45 43 51 77"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.318631985254099,
+        48.83121132604464
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "a9a926f5288309e46f0943752aefac3c47043ddc",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.88493882672613,
+        2.289038959646762
+      ],
+      "deno_cs": "CHAMPERRET",
+      "cie": 5,
+      "tel_feu": "01 45 72 30 65",
+      "geometry": {
+        "coordinates": [
+          2.289038959646762,
+          48.88493882672613
+        ],
+        "type": "Point"
+      },
+      "adresse": "3 bld de l'Yser 75017 Paris",
+      "tel_auto": "35 050",
+      "cs": "CHPT",
+      "em_grpt": "0",
+      "tel_ville": "01 45 72 41 36"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.289038959646762,
+        48.88493882672613
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "1d6bf4808291740294ef661ced5f400fae1b72fe",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.846622208137525,
+        2.35193085885444
+      ],
+      "deno_cs": "POISSY",
+      "cie": 2,
+      "tel_feu": "01 43 54 41 64",
+      "geometry": {
+        "coordinates": [
+          2.35193085885444,
+          48.846622208137525
+        ],
+        "type": "Point"
+      },
+      "adresse": "48-50 rue Cardinal Lemoine 75005 Paris",
+      "tel_auto": "35 022",
+      "cs": "POIS",
+      "em_grpt": "0",
+      "tel_ville": "01 43 54 26 15"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.35193085885444,
+        48.846622208137525
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "010b19ecbd2c5486dd2b6c287886261b7c2f10f0",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.89754996698612,
+        2.278306577203987
+      ],
+      "deno_cs": "LEVALLOIS-PERRET",
+      "cie": 5,
+      "tel_feu": "01 47 58 51 14",
+      "geometry": {
+        "coordinates": [
+          2.278306577203987,
+          48.89754996698612
+        ],
+        "type": "Point"
+      },
+      "adresse": "1 Avenue Georges Pompidou Leva",
+      "tel_auto": "35 052",
+      "cs": "LEVA",
+      "em_grpt": "0",
+      "tel_ville": "01 47 58 51 16"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.278306577203987,
+        48.89754996698612
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "8196c4a73ec71f56e942f59b654ade424172fb83",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.84488318267992,
+        2.195546164699787
+      ],
+      "deno_cs": "GARCHE",
+      "cie": 16,
+      "tel_feu": "01 47 41 05 36",
+      "geometry": {
+        "coordinates": [
+          2.195546164699787,
+          48.84488318267992
+        ],
+        "type": "Point"
+      },
+      "adresse": "18 rue des Jardins 92380 Garches",
+      "tel_auto": "35 161",
+      "cs": "GARC",
+      "em_grpt": "0",
+      "tel_ville": "01 47 41 21 37"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.195546164699787,
+        48.84488318267992
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "9eb4ff6591c09f50b62a5d258526a07256f264ca",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.823637989861076,
+        2.206105429333764
+      ],
+      "deno_cs": "SEVRES",
+      "cie": 16,
+      "tel_feu": "01 45 34 08 71",
+      "geometry": {
+        "coordinates": [
+          2.206105429333764,
+          48.823637989861076
+        ],
+        "type": "Point"
+      },
+      "adresse": "15 rue de Frville le vingt 92310 Svres",
+      "tel_auto": "35 164",
+      "cs": "SEVR",
+      "em_grpt": "0",
+      "tel_ville": "01 45 34 05 79"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.206105429333764,
+        48.823637989861076
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "787adb899d961f79f70b8715a2be239becb5ec84",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.811135715783394,
+        2.237677971289943
+      ],
+      "deno_cs": "MEUDON",
+      "cie": 16,
+      "tel_feu": "01 45 34 16 06",
+      "geometry": {
+        "coordinates": [
+          2.237677971289943,
+          48.811135715783394
+        ],
+        "type": "Point"
+      },
+      "adresse": "5 rue Charles Liot 92190 Meudon",
+      "tel_auto": "35 162",
+      "cs": "MEUD",
+      "em_grpt": "0",
+      "tel_ville": "01 45 34 02 86"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.237677971289943,
+        48.811135715783394
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "8fc1b5c1cacdc78dcb17d9067bda361e9fa6b393",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.83745680451951,
+        2.24847691505129
+      ],
+      "deno_cs": "BOULOGNE",
+      "cie": 16,
+      "tel_feu": "01 46 05 12 86",
+      "geometry": {
+        "coordinates": [
+          2.24847691505129,
+          48.83745680451951
+        ],
+        "type": "Point"
+      },
+      "adresse": "55-57 rue Gallini 92100 Boulogne",
+      "tel_auto": "35 160",
+      "cs": "BOUL",
+      "em_grpt": "0",
+      "tel_ville": "01 46 21 01 15"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.24847691505129,
+        48.83745680451951
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "11c2ce21e41cceed48cede04ff43f4f0a616f796",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.82397659586149,
+        2.268886894238194
+      ],
+      "deno_cs": "ISSY-LES-MOULINEAUX",
+      "cie": 6,
+      "tel_feu": "01 46 42 33 24",
+      "geometry": {
+        "coordinates": [
+          2.268886894238194,
+          48.82397659586149
+        ],
+        "type": "Point"
+      },
+      "adresse": "75 bld Gallini 92130 Issy-les-Moulineaux",
+      "tel_auto": "35 062",
+      "cs": "ISSY",
+      "em_grpt": "0",
+      "tel_ville": "01 46 42 04 04"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.268886894238194,
+        48.82397659586149
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "6cf63bdde0fbea03d32354527aca6d8dfe95d9db",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.811851493453766,
+        2.273647526593529
+      ],
+      "deno_cs": "CLAMART",
+      "cie": 21,
+      "tel_feu": "01 46 41 02 86",
+      "geometry": {
+        "coordinates": [
+          2.273647526593529,
+          48.811851493453766
+        ],
+        "type": "Point"
+      },
+      "adresse": "234 ave Victor Hugo 92140 Clamart",
+      "tel_auto": "35 213",
+      "cs": "CLAM",
+      "em_grpt": "0",
+      "tel_ville": "01 41 09 75 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.273647526593529,
+        48.811851493453766
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "bd03c0ae48e3c80ffdf36541b5b1c05347350f04",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.813049153562275,
+        2.328873309265325
+      ],
+      "deno_cs": "MONTROUGE",
+      "cie": 3,
+      "tel_feu": "01 46 56 18 18",
+      "geometry": {
+        "coordinates": [
+          2.328873309265325,
+          48.813049153562275
+        ],
+        "type": "Point"
+      },
+      "adresse": "53 rue de la Vanne 92120 Montrouge",
+      "tel_auto": "35 031",
+      "cs": "MTGE",
+      "em_grpt": "0",
+      "tel_ville": "01 58 07 05 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.328873309265325,
+        48.813049153562275
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "9adcb0951194581176ab588c525bd784d012de06",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.8302658181447,
+        2.559472215848344
+      ],
+      "deno_cs": "NOISY-LE-GRAND",
+      "cie": 15,
+      "tel_feu": "01 43 04 20 18",
+      "geometry": {
+        "coordinates": [
+          2.559472215848344,
+          48.8302658181447
+        ],
+        "type": "Point"
+      },
+      "adresse": "1-5 ave Mdric 93160 Noisy-le-Grand",
+      "tel_auto": "35 152",
+      "cs": "NOIS",
+      "em_grpt": "0",
+      "tel_ville": "01 43 04 22 10"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.559472215848344,
+        48.8302658181447
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "8cc7fd6afa20aa87f5947dbf5733ab58025c28ee",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.81161377099764,
+        2.388573872258665
+      ],
+      "deno_cs": "IVRY",
+      "cie": 2,
+      "tel_feu": "01 46 72 31 54",
+      "geometry": {
+        "coordinates": [
+          2.388573872258665,
+          48.81161377099764
+        ],
+        "type": "Point"
+      },
+      "adresse": "1 place de l'Htel de Ville 94200 Ivry",
+      "tel_auto": "35 021",
+      "cs": "IVRY",
+      "em_grpt": "0",
+      "tel_ville": "01 46 72 64 34"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.388573872258665,
+        48.81161377099764
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "2287c418cafc6fa95dc615f2f9555ea33dad9b46",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.8466625773539,
+        2.452859770553888
+      ],
+      "deno_cs": "VINCENNES",
+      "cie": 1,
+      "tel_feu": "01 43 28 04 86",
+      "geometry": {
+        "coordinates": [
+          2.452859770553888,
+          48.8466625773539
+        ],
+        "type": "Point"
+      },
+      "adresse": "2 rue de l'Eglise 94300 Vincennes",
+      "tel_auto": "35 012",
+      "cs": "VINC",
+      "em_grpt": "0",
+      "tel_ville": "01 58 64 13 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.452859770553888,
+        48.8466625773539
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "dc6609344de2cb328cac3e4bc2f25cd455760dbb",
+    "fields": {
+      "pc_cie": "2",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.84086236096407,
+        2.482122501769855
+      ],
+      "deno_cs": "NOGENT-SUR-MARNE",
+      "cie": 15,
+      "tel_feu": "01 48 73 07 58",
+      "geometry": {
+        "coordinates": [
+          2.482122501769855,
+          48.84086236096407
+        ],
+        "type": "Point"
+      },
+      "adresse": "Bld de Strasbourg 94130 Nogent/Marne",
+      "tel_auto": "35 151",
+      "cs": "NOGT",
+      "em_grpt": "2",
+      "tel_ville": "01 55 85 15 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.482122501769855,
+        48.84086236096407
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "806a76916e452440af6ad99d370bb6514aaaeec5",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.79703797156979,
+        2.502809038920373
+      ],
+      "deno_cs": "SAINT-MAUR",
+      "cie": 23,
+      "tel_feu": "01 48 83 14 39",
+      "geometry": {
+        "coordinates": [
+          2.502809038920373,
+          48.79703797156979
+        ],
+        "type": "Point"
+      },
+      "adresse": "17 ave Louis Blanc 94100 Saint-Maur",
+      "tel_auto": "35 230",
+      "cs": "STMR",
+      "em_grpt": "0",
+      "tel_ville": "01 48 83 87 46"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.502809038920373,
+        48.79703797156979
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "cf2c0de649df2ffd3027aadd3c8533b5407f557e",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.711974217783364,
+        2.540234317995557
+      ],
+      "deno_cs": "VILLECRESNES",
+      "cie": 23,
+      "tel_feu": "01 45 99 08 74",
+      "geometry": {
+        "coordinates": [
+          2.540234317995557,
+          48.711974217783364
+        ],
+        "type": "Point"
+      },
+      "adresse": "69 rue des Mandres 94440 Villecresnes",
+      "tel_auto": "35 232",
+      "cs": "VILC",
+      "em_grpt": "0",
+      "tel_ville": "01 45 98 90 33"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.540234317995557,
+        48.711974217783364
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "493a22f01f8cebf7d26ee6982721572505b4ad34",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.906186869583195,
+        2.301635756742556
+      ],
+      "deno_cs": "CLICHY",
+      "cie": 9,
+      "tel_feu": "01 47 37 11 30",
+      "geometry": {
+        "coordinates": [
+          2.301635756742556,
+          48.906186869583195
+        ],
+        "type": "Point"
+      },
+      "adresse": "137 Bld Jean-Jaures 92110 Clichy sur Seine",
+      "tel_auto": "35 092",
+      "cs": "CCHY",
+      "em_grpt": "0",
+      "tel_ville": "01 47 37 14 74"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.301635756742556,
+        48.906186869583195
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "5b3908f5b482acd6c700edeb2094866380d5d3bd",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.76217455824642,
+        2.535367225582973
+      ],
+      "deno_cs": "SUCY-EN-BRIE",
+      "cie": 23,
+      "tel_feu": "01 45 90 21 32",
+      "geometry": {
+        "coordinates": [
+          2.535367225582973,
+          48.76217455824642
+        ],
+        "type": "Point"
+      },
+      "adresse": "48 Route de la Queue en Brie 94370 SUCY EN BRIE",
+      "tel_auto": "35 231",
+      "cs": "SUCY",
+      "em_grpt": "0",
+      "tel_ville": "01 45 90 11 40"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.535367225582973,
+        48.76217455824642
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "a550e7effcf2f924aae5175af75f665eed4d60b3",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.87753412520109,
+        2.234894045708356
+      ],
+      "deno_cs": "PUTEAUX",
+      "cie": 28,
+      "tel_feu": "01 45 06 01 20",
+      "geometry": {
+        "coordinates": [
+          2.234894045708356,
+          48.87753412520109
+        ],
+        "type": "Point"
+      },
+      "adresse": "106 rue de Verdun 92800 Puteaux",
+      "tel_auto": "35 280",
+      "cs": "PUTX",
+      "em_grpt": "0",
+      "tel_ville": "01 58 47 29 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.234894045708356,
+        48.87753412520109
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "5460455759447d6bb0733fae167e70bf1f771165",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.948144773485424,
+        2.514659717163093
+      ],
+      "deno_cs": "AULNAY-SOUS-BOIS",
+      "cie": 13,
+      "tel_feu": "01 48 83 76 28",
+      "geometry": {
+        "coordinates": [
+          2.514659717163093,
+          48.948144773485424
+        ],
+        "type": "Point"
+      },
+      "adresse": "156 rte de Mitry 93600 Aulnay",
+      "tel_auto": "35 130",
+      "cs": "AULN",
+      "em_grpt": "0",
+      "tel_ville": "01 43 83 53 33"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.514659717163093,
+        48.948144773485424
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "08249a9d5e2eb7875feaf6a3a049674a545bb1b6",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.92045707802924,
+        2.440845316399005
+      ],
+      "deno_cs": "DRANCY",
+      "cie": 13,
+      "tel_feu": "01 48 32 02 63",
+      "geometry": {
+        "coordinates": [
+          2.440845316399005,
+          48.92045707802924
+        ],
+        "type": "Point"
+      },
+      "adresse": "19-21 rue Roger Salengro 93700 Drancy",
+      "tel_auto": "35 132",
+      "cs": "DRAN",
+      "em_grpt": "0",
+      "tel_ville": "01 48 32 02 64"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.440845316399005,
+        48.92045707802924
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "0b9319ae2b46f869ba1f075080388274585d4651",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.94520784064802,
+        2.341357710728712
+      ],
+      "deno_cs": "SAINT DENIS",
+      "cie": 26,
+      "tel_feu": "01 48 13 85 18",
+      "geometry": {
+        "coordinates": [
+          2.341357710728712,
+          48.94520784064802
+        ],
+        "type": "Point"
+      },
+      "adresse": "Fort de la Briche Che du Fort de la Briche 93200 Saint-Denis",
+      "tel_auto": "35 260",
+      "cs": "STDE",
+      "em_grpt": "0",
+      "tel_ville": "01 48 13 85 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.341357710728712,
+        48.94520784064802
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "2c799f8acad32553c35b3bf937096eeb235263f1",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.9082216304268,
+        2.341529168754316
+      ],
+      "deno_cs": "SAINT OUEN",
+      "cie": 9,
+      "tel_feu": "01 40 11 12 56",
+      "geometry": {
+        "coordinates": [
+          2.341529168754316,
+          48.9082216304268
+        ],
+        "type": "Point"
+      },
+      "adresse": "89 rue du Dc Bauer 93400 Saint-Ouen",
+      "tel_auto": "35 093",
+      "cs": "STOU",
+      "em_grpt": "0",
+      "tel_ville": "01 41 66 49 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.341529168754316,
+        48.9082216304268
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "436ad854c89209641153bfe9e3415c7b02eb5ec3",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.92986100160638,
+        2.302037083519133
+      ],
+      "deno_cs": "GENNEVILLIERS",
+      "cie": 27,
+      "tel_feu": "01 47 94 38 94",
+      "geometry": {
+        "coordinates": [
+          2.302037083519133,
+          48.92986100160638
+        ],
+        "type": "Point"
+      },
+      "adresse": "136-140 rue Henri Barbusse 92230 Gennevilliers",
+      "tel_auto": "35 270",
+      "cs": "GENN",
+      "em_grpt": "0",
+      "tel_ville": "01 47 94 18 14"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.302037083519133,
+        48.92986100160638
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "4b7328e9ebf9e82eb99bed35cb425ef229f3136b",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.92275821023366,
+        2.262550581629367
+      ],
+      "deno_cs": "COLOMBES",
+      "cie": 27,
+      "tel_feu": "01 42 42 14 56",
+      "geometry": {
+        "coordinates": [
+          2.262550581629367,
+          48.92275821023366
+        ],
+        "type": "Point"
+      },
+      "adresse": "20 rue Hoche 92700 Colombes",
+      "tel_auto": "35 272",
+      "cs": "COBE",
+      "em_grpt": "0",
+      "tel_ville": "01 42 42 00 63"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.262550581629367,
+        48.92275821023366
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "9d413e875545dc48ebdda482bf8aa848c4e88003",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.86160258059006,
+        2.306601910761879
+      ],
+      "deno_cs": "MALAR",
+      "cie": 4,
+      "tel_feu": "01 47 05 41 99",
+      "geometry": {
+        "coordinates": [
+          2.306601910761879,
+          48.86160258059006
+        ],
+        "type": "Point"
+      },
+      "adresse": "7 rue Malar 75007 Paris",
+      "tel_auto": "35 042",
+      "cs": "MALA",
+      "em_grpt": "0",
+      "tel_ville": "01 45 55 08 81"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.306601910761879,
+        48.86160258059006
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "77d26b179f44a7c4c480903814493cb4659ab489",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.88166630357106,
+        2.369314659140173
+      ],
+      "deno_cs": "LANDON",
+      "cie": 10,
+      "tel_feu": "01 40 35 74 58",
+      "geometry": {
+        "coordinates": [
+          2.369314659140173,
+          48.88166630357106
+        ],
+        "type": "Point"
+      },
+      "adresse": "QUAI DE VALMY",
+      "tel_auto": "35 100",
+      "cs": "LAND",
+      "em_grpt": "0",
+      "tel_ville": "01 40 35 58 31"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.369314659140173,
+        48.88166630357106
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "a883c6993a7992f17fc056b16a3ba6c2ce6e12d6",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.88401562479036,
+        2.320294679767514
+      ],
+      "deno_cs": "BOURSAULT",
+      "cie": 9,
+      "tel_feu": "01 45 22 36 77",
+      "geometry": {
+        "coordinates": [
+          2.320294679767514,
+          48.88401562479036
+        ],
+        "type": "Point"
+      },
+      "adresse": "27 rue Boursault 75017 Paris",
+      "tel_auto": "35 091",
+      "cs": "BSLT",
+      "em_grpt": "0",
+      "tel_ville": "01 45 22 43 13"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.320294679767514,
+        48.88401562479036
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "8a7334b9f9e6319523aeb364fd0caae72ba14fa3",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.85480891793471,
+        2.405958787829583
+      ],
+      "deno_cs": "CHARONNE",
+      "cie": 12,
+      "tel_feu": "01 43 71 53 66",
+      "geometry": {
+        "coordinates": [
+          2.405958787829583,
+          48.85480891793471
+        ],
+        "type": "Point"
+      },
+      "adresse": "93 rue des Pyrnes 75020 Paris",
+      "tel_auto": "35 121",
+      "cs": "CHAR",
+      "em_grpt": "0",
+      "tel_ville": "01 43 71 51 22"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.405958787829583,
+        48.85480891793471
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "3c769e8020dea87f6ecd5823e56bf89b42308902",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.87139130707958,
+        2.359252918894503
+      ],
+      "deno_cs": "CHATEAU D'EAU",
+      "cie": 8,
+      "tel_feu": "01 40 40 03 33",
+      "geometry": {
+        "coordinates": [
+          2.359252918894503,
+          48.87139130707958
+        ],
+        "type": "Point"
+      },
+      "adresse": "50 rue de Chteau-d'Eau 75010 Paris",
+      "tel_auto": "35 081",
+      "cs": "CHTO",
+      "em_grpt": "0",
+      "tel_ville": "01 40 03 98 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.359252918894503,
+        48.87139130707958
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "04dbca711adfb289c7172e1e109cdc8983bb1116",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.84753000506687,
+        2.385201524267124
+      ],
+      "deno_cs": "CHALIGNY",
+      "cie": 1,
+      "tel_feu": "01 43 72 51 52",
+      "geometry": {
+        "coordinates": [
+          2.385201524267124,
+          48.84753000506687
+        ],
+        "type": "Point"
+      },
+      "adresse": "26 rue de Chaligny 75012 Paris",
+      "tel_auto": "35 010",
+      "cs": "CHLY",
+      "em_grpt": "0",
+      "tel_ville": "01 43 72 55 75"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.385201524267124,
+        48.84753000506687
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "5c27f38100fa39b0bead2fa43ae79926f99e0ce2",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.86431635308873,
+        2.3453483803394
+      ],
+      "deno_cs": "ROUSSEAU",
+      "cie": 8,
+      "tel_feu": "01 42 36 60 03",
+      "geometry": {
+        "coordinates": [
+          2.3453483803394,
+          48.86431635308873
+        ],
+        "type": "Point"
+      },
+      "adresse": "21 rue du Jour 75001 Paris",
+      "tel_auto": "35 080",
+      "cs": "ROUS",
+      "em_grpt": "0",
+      "tel_ville": "01 42 36 55 49"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.3453483803394,
+        48.86431635308873
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "86cdc7187bef9120176bce07915795bd675ff533",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.892750149379495,
+        2.245004856990168
+      ],
+      "deno_cs": "COURBEVOIE-LA-DEFENSE",
+      "cie": 28,
+      "tel_feu": "01 43 33 01 20",
+      "geometry": {
+        "coordinates": [
+          2.245004856990168,
+          48.892750149379495
+        ],
+        "type": "Point"
+      },
+      "adresse": "12-14 rue Henri Rgnault 92400 Courbevoie",
+      "tel_auto": "35 281",
+      "cs": "CBVE",
+      "em_grpt": "1",
+      "tel_ville": "01 49 04 74 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.245004856990168,
+        48.892750149379495
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "31c63509fd0e62161a723cf4bc813319aa882d10",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.89978645780687,
+        2.202605676993568
+      ],
+      "deno_cs": "NANTERRE",
+      "cie": 28,
+      "tel_feu": "01 47 21 23 79",
+      "geometry": {
+        "coordinates": [
+          2.202605676993568,
+          48.89978645780687
+        ],
+        "type": "Point"
+      },
+      "adresse": "8 RUE DE L INDUSTRIE",
+      "tel_auto": "35 282",
+      "cs": "NANT",
+      "em_grpt": "0",
+      "tel_ville": "01 41 91 54 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.202605676993568,
+        48.89978645780687
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "3c1464c0c300a3057a3bacf1e3c73ddabd87c1c0",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.785191469716246,
+        2.251883022203497
+      ],
+      "deno_cs": "PLESSIS-CLAMART",
+      "cie": 21,
+      "tel_feu": "01 46 31 18 18",
+      "geometry": {
+        "coordinates": [
+          2.251883022203497,
+          48.785191469716246
+        ],
+        "type": "Point"
+      },
+      "adresse": "287 ave du Gnral de Gaulle 92140 Clamart",
+      "tel_auto": "35 210",
+      "cs": "PLCL",
+      "em_grpt": "0",
+      "tel_ville": "01 46 32 06 76"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.251883022203497,
+        48.785191469716246
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "24bd7d54670ec57278325189ead5d3794c184ff4",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.836483926515974,
+        2.387350278591604
+      ],
+      "deno_cs": "NATIVITE",
+      "cie": 1,
+      "tel_feu": "01 43 43 53 75",
+      "geometry": {
+        "coordinates": [
+          2.387350278591604,
+          48.836483926515974
+        ],
+        "type": "Point"
+      },
+      "adresse": "5 place Lachambaudie 75012 Paris",
+      "tel_auto": "35 011",
+      "cs": "NATI",
+      "em_grpt": "0",
+      "tel_ville": "01 43 43 54 65"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.387350278591604,
+        48.836483926515974
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "a6bf0410b9ba400a531f16eb74f5c84eb0e1947c",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.79190687279946,
+        2.353382013815399
+      ],
+      "deno_cs": "VILLEJUIF",
+      "cie": 22,
+      "tel_feu": "01 47 26 39 60",
+      "geometry": {
+        "coordinates": [
+          2.353382013815399,
+          48.79190687279946
+        ],
+        "type": "Point"
+      },
+      "adresse": "46-48 ave de Verdun 94800 Villejuif",
+      "tel_auto": "35 222",
+      "cs": "VIJF",
+      "em_grpt": "0",
+      "tel_ville": "01 47 26 18 19"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.353382013815399,
+        48.79190687279946
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "0eadad23e1d193756c448eaaed074064b9183c0d",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.86854075799537,
+        2.284839892485231
+      ],
+      "deno_cs": "DAUPHINE",
+      "cie": 5,
+      "tel_feu": "01 45 53 80 11",
+      "geometry": {
+        "coordinates": [
+          2.284839892485231,
+          48.86854075799537
+        ],
+        "type": "Point"
+      },
+      "adresse": "8 rue Mnil 75016 Paris",
+      "tel_auto": "35 051",
+      "cs": "DAUP",
+      "em_grpt": "0",
+      "tel_ville": "01 45 53 84 68"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.284839892485231,
+        48.86854075799537
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "2fc916571ccb52ec168da8b70ae819af34d99af6",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.850783723488995,
+        2.273813082223948
+      ],
+      "deno_cs": "AUTEUIL",
+      "cie": 6,
+      "tel_feu": "01 42 88 51 81",
+      "geometry": {
+        "coordinates": [
+          2.273813082223948,
+          48.850783723488995
+        ],
+        "type": "Point"
+      },
+      "adresse": "2-4 rue Franois Millet 75016 Paris",
+      "tel_auto": "35 061",
+      "cs": "AUTE",
+      "em_grpt": "0",
+      "tel_ville": "01 42 88 76 20"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.273813082223948,
+        48.850783723488995
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "245079dd763ee47f96950a91c4ca07fcca5ef71b",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.837544199887354,
+        2.344709020663138
+      ],
+      "deno_cs": "PORT ROYAL",
+      "cie": 3,
+      "tel_feu": "01 45 35 18 18",
+      "geometry": {
+        "coordinates": [
+          2.344709020663138,
+          48.837544199887354
+        ],
+        "type": "Point"
+      },
+      "adresse": "55 bld de Port-Royal 75013 Paris",
+      "tel_auto": "35 030",
+      "cs": "PROY",
+      "em_grpt": "0",
+      "tel_ville": "01 53 55 23 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.344709020663138,
+        48.837544199887354
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "2ce44191082e754021dff1b920a982aa2f886c58",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.88197649915804,
+        2.498423428518257
+      ],
+      "deno_cs": "VILLEMOMBLE",
+      "cie": 24,
+      "tel_feu": "01 45 28 73 05",
+      "geometry": {
+        "coordinates": [
+          2.498423428518257,
+          48.88197649915804
+        ],
+        "type": "Point"
+      },
+      "adresse": "1 rue des Haies 93250 Villemomble",
+      "tel_auto": "35 242",
+      "cs": "VIMB",
+      "em_grpt": "0",
+      "tel_ville": "01 45 28 73 06"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.498423428518257,
+        48.88197649915804
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "e86c29064bafd4eba8cad18f80dac3653d9b5e78",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.81860533071378,
+        2.465812844690278
+      ],
+      "deno_cs": "JOINVILLE",
+      "cie": 17,
+      "tel_feu": "01 48 83 25 40",
+      "geometry": {
+        "coordinates": [
+          2.465812844690278,
+          48.81860533071378
+        ],
+        "type": "Point"
+      },
+      "adresse": "16 rue de Paris 94340 Joinville-le-Pont",
+      "tel_auto": "35 171",
+      "cs": "JOIN",
+      "em_grpt": "0",
+      "tel_ville": "01 48 83 34 90"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.465812844690278,
+        48.81860533071378
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "12fd34b241052291ec6ca0b487a70e72716c1f9f",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.7453519673546,
+        2.452877323973643
+      ],
+      "deno_cs": "VILLENEUVE-ST-GEORGES",
+      "cie": 17,
+      "tel_feu": "01 43 89 02 49",
+      "geometry": {
+        "coordinates": [
+          2.452877323973643,
+          48.7453519673546
+        ],
+        "type": "Point"
+      },
+      "adresse": "97 ave Anatole France 94190 Villeneuve-St-Georges",
+      "tel_auto": "35 173",
+      "cs": "VISG",
+      "em_grpt": "0",
+      "tel_ville": "01 43 89 03 91"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.452877323973643,
+        48.7453519673546
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "94cd3240979e7a7a54c06f8af0f60723b5260e75",
+    "fields": {
+      "grpt": 0,
+      "geo_point_2d": [
+        48.78761361960885,
+        2.38969548304495
+      ],
+      "cie": 0,
+      "geometry": {
+        "coordinates": [
+          2.38969548304495,
+          48.78761361960885
+        ],
+        "type": "Point"
+      },
+      "cs": "0"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.38969548304495,
+        48.78761361960885
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "0e0d584b94b33ff28ef7cd805d3ba596f4a5f0cc",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.878574515284825,
+        2.332714097910268
+      ],
+      "deno_cs": "BLANCHE",
+      "cie": 7,
+      "tel_feu": "01 48 74 56 20",
+      "geometry": {
+        "coordinates": [
+          2.332714097910268,
+          48.878574515284825
+        ],
+        "type": "Point"
+      },
+      "adresse": "28 rue Blanche 75009 Paris",
+      "tel_auto": "35 070",
+      "cs": "BLAN",
+      "em_grpt": "0",
+      "tel_ville": "01 40 23 20 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.332714097910268,
+        48.878574515284825
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "42fec498d57246bc7e9b80813fda8627694cf100",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.904823354490865,
+        2.542777955351749
+      ],
+      "deno_cs": "CLICHY-SOUS-BOIS",
+      "cie": 14,
+      "tel_feu": "01 45 09 40 00",
+      "geometry": {
+        "coordinates": [
+          2.542777955351749,
+          48.904823354490865
+        ],
+        "type": "Point"
+      },
+      "adresse": "2 al du Chne Pointu 93390 Clichy/Bois",
+      "tel_auto": "35 140",
+      "cs": "CLIC",
+      "em_grpt": "0",
+      "tel_ville": "01 45 09 40 10"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.542777955351749,
+        48.904823354490865
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "0942fcfca6dd27ffbeff9f88fee607bb1e5cfa41",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.86406575988172,
+        2.439918544329441
+      ],
+      "deno_cs": "MONTREUIL",
+      "cie": 24,
+      "tel_feu": "01 42 87 00 02",
+      "geometry": {
+        "coordinates": [
+          2.439918544329441,
+          48.86406575988172
+        ],
+        "type": "Point"
+      },
+      "adresse": "11 ave Pasteur 93105 Montreuil/Bois",
+      "tel_auto": "35 240",
+      "cs": "MTRL",
+      "em_grpt": "0",
+      "tel_ville": "01 42 87 20 31"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.439918544329441,
+        48.86406575988172
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "e8513d62b633ed2f1d02a6f29ae222f041ff4aee",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.92870844965051,
+        2.388892543404733
+      ],
+      "deno_cs": "LA COURNEUVE",
+      "cie": 26,
+      "tel_feu": "01 48 36 32 61",
+      "geometry": {
+        "coordinates": [
+          2.388892543404733,
+          48.92870844965051
+        ],
+        "type": "Point"
+      },
+      "adresse": "24 rue de la Convention 93120 La Courneuve",
+      "tel_auto": "35 262",
+      "cs": "LACO",
+      "em_grpt": "0",
+      "tel_ville": "01 48 36 32 64"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.388892543404733,
+        48.92870844965051
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "cdf4e12203bd8b14ed3313dfc7debfce86b5407b",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.89921516230364,
+        2.408006343064411
+      ],
+      "deno_cs": "PANTIN",
+      "cie": 10,
+      "tel_feu": "01 48 45 06 37",
+      "geometry": {
+        "coordinates": [
+          2.408006343064411,
+          48.89921516230364
+        ],
+        "type": "Point"
+      },
+      "adresse": "93-95 rue du Cartier Bresson 93500 Pantin",
+      "tel_auto": "35 102",
+      "cs": "PANT",
+      "em_grpt": "0",
+      "tel_ville": "01 48 45 60 41"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.408006343064411,
+        48.89921516230364
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "c52f652fdee30a8121a7f388ccf7cd37e393b451",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.923757073502784,
+        2.285136680353378
+      ],
+      "deno_cs": "ASNIERES",
+      "cie": 27,
+      "tel_feu": "01 47 99 05 01",
+      "geometry": {
+        "coordinates": [
+          2.285136680353378,
+          48.923757073502784
+        ],
+        "type": "Point"
+      },
+      "adresse": "4 rue du Cne Bossard 92600 Asnires",
+      "tel_auto": "35 271",
+      "cs": "ASNI",
+      "em_grpt": "0",
+      "tel_ville": "01 47 99 71 19"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.285136680353378,
+        48.923757073502784
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "c64036e56490868b4b4d3fda92e5366f11b66bab",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.88921527640774,
+        2.380602310309143
+      ],
+      "deno_cs": "BITCHE",
+      "cie": 10,
+      "tel_feu": "01 40 36 86 03",
+      "geometry": {
+        "coordinates": [
+          2.380602310309143,
+          48.88921527640774
+        ],
+        "type": "Point"
+      },
+      "adresse": "2 place Bitche 75019 Paris",
+      "tel_auto": "35 101",
+      "cs": "BITC",
+      "em_grpt": "0",
+      "tel_ville": "01 44 65 94 48"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.380602310309143,
+        48.88921527640774
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "1dc281b0b6fd7e2ac3e04051d81f1c99be2d81a6",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.871932026102066,
+        2.404627087742368
+      ],
+      "deno_cs": "MENILMONTANT",
+      "cie": 12,
+      "tel_feu": "01 40 31 72 47",
+      "geometry": {
+        "coordinates": [
+          2.404627087742368,
+          48.871932026102066
+        ],
+        "type": "Point"
+      },
+      "adresse": "47 rue St-Fargeau 75020 Paris",
+      "tel_auto": "35 120",
+      "cs": "MENI",
+      "em_grpt": "0",
+      "tel_ville": "01 40 31 44 18"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.404627087742368,
+        48.871932026102066
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "145c0197d770980594d3b2078a275f3d90826dd7",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.865905179372795,
+        2.37453722054566
+      ],
+      "deno_cs": "PARMENTIER",
+      "cie": 11,
+      "tel_feu": "01 43 57 58 69",
+      "geometry": {
+        "coordinates": [
+          2.37453722054566,
+          48.865905179372795
+        ],
+        "type": "Point"
+      },
+      "adresse": "87 ave Parmentier 75011 Paris",
+      "tel_auto": "35 111",
+      "cs": "PARM",
+      "em_grpt": "0",
+      "tel_ville": "01 43 57 27 43"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.37453722054566,
+        48.865905179372795
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "3652a51e95b63459d53b71235b2f0bab1a4a28d1",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.851129358491775,
+        2.332187723386729
+      ],
+      "deno_cs": "COLOMBIER",
+      "cie": 4,
+      "tel_feu": "01 45 48 32 90",
+      "geometry": {
+        "coordinates": [
+          2.332187723386729,
+          48.851129358491775
+        ],
+        "type": "Point"
+      },
+      "adresse": "11 rue du Vieux Colombier 75006 Paris",
+      "tel_auto": "35 040",
+      "cs": "COBI",
+      "em_grpt": "0",
+      "tel_ville": "01 45 48 50 70"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.332187723386729,
+        48.851129358491775
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "cd0299b09e811e96f1029d11689dabc58a16e644",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.85598419612224,
+        2.362614560838626
+      ],
+      "deno_cs": "SEVIGNE",
+      "cie": 11,
+      "tel_feu": "01 42 72 17 84",
+      "geometry": {
+        "coordinates": [
+          2.362614560838626,
+          48.85598419612224
+        ],
+        "type": "Point"
+      },
+      "adresse": "7 rue de Svign 75004 Paris",
+      "tel_auto": "35 110",
+      "cs": "SEVI",
+      "em_grpt": "0",
+      "tel_ville": "01 44 61 50 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.362614560838626,
+        48.85598419612224
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "f28326288a10127ad9cf2e47cdf56eabd860923a",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 1,
+      "geo_point_2d": [
+        48.865826419251185,
+        2.336208772389743
+      ],
+      "deno_cs": "SAINT HONORE",
+      "cie": 7,
+      "tel_feu": "01 42 61 03 93",
+      "geometry": {
+        "coordinates": [
+          2.336208772389743,
+          48.865826419251185
+        ],
+        "type": "Point"
+      },
+      "adresse": "10 rue St-Anne 75001 Paris",
+      "tel_auto": "35 071",
+      "cs": "STHO",
+      "em_grpt": "0",
+      "tel_ville": "01 42 61 03 26"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.336208772389743,
+        48.865826419251185
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "751402647299f6cdd9bfa2d24c034c2196807f3b",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.86500640320308,
+        2.179383111281644
+      ],
+      "deno_cs": "RUEIL-MALMAISON",
+      "cie": 28,
+      "tel_feu": "01 47 49 18 18",
+      "geometry": {
+        "coordinates": [
+          2.179383111281644,
+          48.86500640320308
+        ],
+        "type": "Point"
+      },
+      "adresse": "112 rte de l'Empereur 92500 Rueil-Malmaison",
+      "tel_auto": "35 283",
+      "cs": "RUEI",
+      "em_grpt": "0",
+      "tel_ville": "01 47 49 47 09"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.179383111281644,
+        48.86500640320308
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "4717089a15d79a088322aa7bb2ef392d5c00fc90",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.84777310238412,
+        2.210943583533491
+      ],
+      "deno_cs": "SAINT CLOUD",
+      "cie": 16,
+      "tel_feu": "01 47 71 05 20",
+      "geometry": {
+        "coordinates": [
+          2.210943583533491,
+          48.84777310238412
+        ],
+        "type": "Point"
+      },
+      "adresse": "40 ave du Marchal Foch 92210 St-Cloud",
+      "tel_auto": "35 163",
+      "cs": "STCL",
+      "em_grpt": "0",
+      "tel_ville": "01 55 39 39 28"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.210943583533491,
+        48.84777310238412
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "67a30f3af90ef3413be776f1c8a9c5319bc618bd",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.77897700395643,
+        2.31996118001607
+      ],
+      "deno_cs": "BOURG-LA-REINE",
+      "cie": 21,
+      "tel_feu": "01 47 02 09 38",
+      "geometry": {
+        "coordinates": [
+          2.31996118001607,
+          48.77897700395643
+        ],
+        "type": "Point"
+      },
+      "adresse": "20 rue Ravon 92340 Bourg-la-Reine",
+      "tel_auto": "35 212",
+      "cs": "BGLR",
+      "em_grpt": "0",
+      "tel_ville": "01 46 63 09 48"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.31996118001607,
+        48.77897700395643
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "95b8e51e1c97b4f659fcc421d73432de99eaf2c1",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 3,
+      "geo_point_2d": [
+        48.74911391418449,
+        2.305119351207371
+      ],
+      "deno_cs": "ANTONY",
+      "cie": 21,
+      "tel_feu": "01 46 66 07 51",
+      "geometry": {
+        "coordinates": [
+          2.305119351207371,
+          48.74911391418449
+        ],
+        "type": "Point"
+      },
+      "adresse": "2 ave Armand Guillebeaud 92160 Antony",
+      "tel_auto": "35 211",
+      "cs": "ANTO",
+      "em_grpt": "0",
+      "tel_ville": "01 46 66 09 90"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.305119351207371,
+        48.74911391418449
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "2a373845582da02155696134d13fd9576b7d951a",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.82237492393658,
+        2.37439160078957
+      ],
+      "deno_cs": "MASSENA",
+      "cie": 2,
+      "tel_feu": "01 45 83 80 80",
+      "geometry": {
+        "coordinates": [
+          2.37439160078957,
+          48.82237492393658
+        ],
+        "type": "Point"
+      },
+      "adresse": "37 bld Massna 75013 Paris",
+      "tel_auto": "35 020",
+      "cs": "MASS",
+      "em_grpt": "1",
+      "tel_ville": "01 45 83 82 66"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.37439160078957,
+        48.82237492393658
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "19a491773eba7a7ffb9bb509e2372774f02a400a",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.80848986122677,
+        2.531643033983713
+      ],
+      "deno_cs": "CHAMPIGNY",
+      "cie": 15,
+      "tel_feu": "01 48 81 03 97",
+      "geometry": {
+        "coordinates": [
+          2.531643033983713,
+          48.80848986122677
+        ],
+        "type": "Point"
+      },
+      "adresse": "16 rue de Dunkerque 94500 Champigny/Marne",
+      "tel_auto": "35 150",
+      "cs": "CHPY",
+      "em_grpt": "0",
+      "tel_ville": "01 48 81 55 45"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.531643033983713,
+        48.80848986122677
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "dcce6d8d742803e5d9640d61b11d4975e91fb4a7",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.80029244223223,
+        2.430344019293032
+      ],
+      "deno_cs": "MAISON-ALFORT",
+      "cie": 17,
+      "tel_feu": "01 43 78 28 10",
+      "geometry": {
+        "coordinates": [
+          2.430344019293032,
+          48.80029244223223
+        ],
+        "type": "Point"
+      },
+      "adresse": "4-6 rue Pasteur 94700 Maisons-Alfort",
+      "tel_auto": "35 172",
+      "cs": "MALF",
+      "em_grpt": "0",
+      "tel_ville": "01 43 78 32 04"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.430344019293032,
+        48.80029244223223
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "b62681f9ffea892132f8379c97905102a3d97e82",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.786478181455664,
+        2.458824669214229
+      ],
+      "deno_cs": "CRETEIL",
+      "cie": 17,
+      "tel_feu": "01 49 80 28 18",
+      "geometry": {
+        "coordinates": [
+          2.458824669214229,
+          48.786478181455664
+        ],
+        "type": "Point"
+      },
+      "adresse": "10-18 rue de l'Orme St-Simon 94000  Crteil",
+      "tel_auto": "35 170",
+      "cs": "CRET",
+      "em_grpt": "0",
+      "tel_ville": "01 49 80 28 17"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.458824669214229,
+        48.786478181455664
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "38937b2bd778324a0e0d99870c3b8da20de6ab6a",
+    "fields": {
+      "pc_cie": "1",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.76004158998731,
+        2.367577983007259
+      ],
+      "deno_cs": "RUNGIS",
+      "cie": 22,
+      "tel_feu": "01 47 26 90 20",
+      "geometry": {
+        "coordinates": [
+          2.367577983007259,
+          48.76004158998731
+        ],
+        "type": "Point"
+      },
+      "adresse": "382 ave de Stalingrad 94669 Chevilly-Larue",
+      "tel_auto": "35 220",
+      "cs": "RUNG",
+      "em_grpt": "0",
+      "tel_ville": "01 46 86 90 10"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.367577983007259,
+        48.76004158998731
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  },
+  {
+    "datasetid": "liste-des-casernes-a-paris-et-dans-les-departements-de-la-petite-couronne",
+    "recordid": "88a11e996c7197144a9a24fe03b99e047781ebfe",
+    "fields": {
+      "pc_cie": "0",
+      "grpt": 2,
+      "geo_point_2d": [
+        48.754329286920175,
+        2.41047016690969
+      ],
+      "deno_cs": "CHOISY-LE-ROI",
+      "cie": 22,
+      "tel_feu": "01 48 84 09 47",
+      "geometry": {
+        "coordinates": [
+          2.41047016690969,
+          48.754329286920175
+        ],
+        "type": "Point"
+      },
+      "adresse": "56-58 rue Jules Vals 94600 Choisy-le-Roi",
+      "tel_auto": "35 221",
+      "cs": "CHOI",
+      "em_grpt": "0",
+      "tel_ville": "01 48 52 33 40"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        2.41047016690969,
+        48.754329286920175
+      ]
+    },
+    "record_timestamp": "2022-11-16T06:33:45.095+01:00"
+  }
+]
