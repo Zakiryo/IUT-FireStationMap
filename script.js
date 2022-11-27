@@ -7,7 +7,6 @@ $(document).ready(() => {
     const stationSearch = document.querySelector('input');
     stationSearch.addEventListener('input', searchStation);
     initMap();
-    console.log("nouveau commit oe");
 });
 
 function initMap() {
