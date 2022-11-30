@@ -14,35 +14,39 @@
 
 <body>
     <div class="registerLogin">
-        <form method="post">
+        <form action="login.php" method="post">
             <h2>Se connecter</h2>
             <div class="mb-3">
                 <label for="loginMail" class="form-label">Adresse électronique</label>
-                <input type="email" class="form-control" id="loginMail" placeholder="exemple@exemple.com">
+                <input type="email" class="form-control" id="loginMail" placeholder="exemple@exemple.com" name="loginMail">
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
+                <input type="password" class="form-control" id="loginPassword" name="loginPassword">
             </div>
             <button type="submit" class="btn btn-primary">Connexion</button>
         </form>
-        <form method="post">
+        <form action="register.php" method="post">
             <h2>Nouveau visiteur ? Inscrivez-vous !</h2>
             <div class="mb-3">
                 <label for="userName" class="form-label">Votre pseudonyme :</label>
-                <input class="form-control" id="userName" type="text" placeholder="Pseudo">
+                <input class="form-control" id="userName" type="text" name="registerUsername" placeholder="Pseudo" name="registerUsername">
             </div>
             <div class="mb-3">
                 <label for="registerMail" class="form-label">Votre adresse électronique valide :</label>
-                <input type="email" class="form-control" id="registerMail" placeholder="exemple@exemple.com">
+                <input type="email" class="form-control" id="registerMail" placeholder="exemple@exemple.com" name="registerMail">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
+                <input type="password" class="form-control" id="registerPassword" name="registerPassword">
             </div>
             <div class="mb-3">
                 <label for="lastName" class="form-label">Votre nom de famille :</label>
-                <input class="form-control" id="lastName" type="text" placeholder="Nom">
+                <input class="form-control" id="lastName" type="text" placeholder="Nom" name="registerLastName">
             </div>
             <div class="mb-3">
                 <label for="firstName" class="form-label">Votre prénom :</label>
-                <input class="form-control" id="firstName" type="text" placeholder="Prénom">
+                <input class="form-control" id="firstName" type="text" placeholder="Prénom" name="registerFirstName">
             </div>
             <button type="submit" class="btn btn-primary">S'inscrire</button>
         </form>

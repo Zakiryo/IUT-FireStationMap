@@ -21,7 +21,7 @@ function initMap() {
             })
             stations.addTo(map);
         }
-    })
+    });
 }
 
 function searchStation(e) {
@@ -34,5 +34,14 @@ function searchStation(e) {
     });
     save.forEach(element => {
         if (element.getPopup().getContent().includes(search.toUpperCase())) stations.addLayer(element)
+    });
+}
+
+function getSession() {
+    $.ajax({
+        url: 'getSession.php',
+        success: function(data) {
+            return data;
+        }
     });
 }
