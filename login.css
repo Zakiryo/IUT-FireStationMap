@@ -1,4 +1,5 @@
 form {
+    background-color: rgb(202, 199, 199);
     display: flex;
     flex-direction: column;
     margin: 3em;

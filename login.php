@@ -4,7 +4,7 @@ require_once 'database.php';
 if (isset($_POST['loginMail']) && isset($_POST['loginPassword'])) {
     $loginMail = htmlspecialchars($_POST['loginMail']);
     $loginPassword = htmlspecialchars($_POST['loginPassword']);
-    $check = $db->prepare('SELECT MAIL, PASSWORD FROM users WHERE mail = ?');
+    $check = $db->prepare('SELECT * FROM users WHERE mail = ?');
     $check->execute(array($loginMail));
     $data = $check->fetch();
     $row = $check->rowCount();

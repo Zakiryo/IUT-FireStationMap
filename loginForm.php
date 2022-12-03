@@ -82,6 +82,14 @@
             <?php
                         break;
                 }
+            } ?>
+            <?php
+            if (isset($_GET['success'])) {
+            ?>
+                <div class="alert alert-success">
+                    <b>Votre compte a été créé avec succès ! Vous pouvez maintenant vous connecter.</b>
+                </div>
+            <?php
             }
             ?>
         </form>

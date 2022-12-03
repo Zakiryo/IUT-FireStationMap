@@ -1,7 +1,7 @@
-<?php session_start();
+<?php session_start();/*
 if (!isset($_SESSION['username'])) {
     header('Location:loginForm.php');
-}
+}*/
 ?>
 
 <!DOCTYPE html>
@@ -24,7 +24,7 @@ if (!isset($_SESSION['username'])) {
         <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Rechercher une caserne..." aria-label="Search">
         </form>
-        <h2><?php echo $_SESSION['username']; ?></h2>
+        <h2>Bonjour <?php echo $_SESSION['username'] ?> !</h2>
         <h2><a href="account.html">Voir mon profil</a><br><a href="loginForm.php">Se déconnecter</a>
         </h2>
     </div>
