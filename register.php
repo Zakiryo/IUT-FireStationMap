@@ -21,10 +21,10 @@ if (isset($_POST['registerUsername']) && isset($_POST['registerMail']) && isset(
             'password' => $registerPassword,
             'mail' => $registerMail
         ));
-        header('Location:loginForm.php?success');
+        header('Location:index.php?success');
     } else {
-        header('Location:loginForm.php?register_error=already_exist');
+        header('Location:index.php?register_error=already_exist');
     }
 } else {
-    header('Location:loginForm.php?register_error=empty');
+    header('Location:index.php?register_error=empty');
 }

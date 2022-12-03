@@ -12,13 +12,13 @@ if (isset($_POST['loginMail']) && isset($_POST['loginPassword'])) {
         $loginPassword = hash('sha256', $loginPassword);
         if ($data['PASSWORD'] === $loginPassword) {
             $_SESSION['username'] = $data['USERNAME'];
-            header('Location:index.php');
+            header('Location:map.php');
         } else {
-            header('Location:loginForm.php?login_error=password');
+            header('Location:index.php?login_error=password');
         }
     } else {
-        header('Location: loginForm.php?login_error=not_exist');
+        header('Location:index.php?login_error=not_exist');
     }
 } else {
-    header('Location:loginForm.php');
+    header('Location:index.php');
 }
