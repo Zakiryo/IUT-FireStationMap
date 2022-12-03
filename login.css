@@ -2,6 +2,8 @@ form {
     display: flex;
     flex-direction: column;
     margin: 3em;
+    border: solid rgb(131, 127, 127);
+    padding: 3em;
 }
 
 .registerLogin {

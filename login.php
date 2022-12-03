@@ -1,27 +1,24 @@
 <?php
 session_start();
-if (isset($_POST['email']) && isset($_POST['password'])) {
-    $username = $_POST['email'];
-    $password = $_POST['password'];
-    $user = 'root';
-    $pass = 'root';
-    $db = new PDO('mysql:host=localhost;dbname=firestationsmapdatabase', $user, $pass);
-    $query = "SELECT * FROM `users` WHERE `USERNAME` = :username AND `PASSWORD` = :password";
-    $result = $db->prepare($query);
-    $result->execute(array(
-        "username" => $username,
-        "password" => $password
-    ));
-    $result->execute();
-
-    if ($result->rowCount() > 0) {
-        $data = $result->fetchAll();
-        if (password_verify($password, $data[0]["PASSWORD"])) {
-            $_SESSION['ID'] = $data[0]['ID'];
-            header("index.html");
-            die();
+require_once 'database.php';
+if (isset($_POST['loginMail']) && isset($_POST['loginPassword'])) {
+    $loginMail = htmlspecialchars($_POST['loginMail']);
+    $loginPassword = htmlspecialchars($_POST['loginPassword']);
+    $check = $db->prepare('SELECT MAIL, PASSWORD FROM users WHERE mail = ?');
+    $check->execute(array($loginMail));
+    $data = $check->fetch();
+    $row = $check->rowCount();
+    if ($row == 1) {
+        $loginPassword = hash('sha256', $loginPassword);
+        if ($data['PASSWORD'] === $loginPassword) {
+            $_SESSION['username'] = $data['USERNAME'];
+            header('Location:index.php');
         } else {
-            return;
+            header('Location:loginForm.php?login_error=password');
         }
+    } else {
+        header('Location: loginForm.php?login_error=not_exist');
     }
+} else {
+    header('Location:loginForm.php');
 }
