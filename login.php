@@ -11,6 +11,7 @@ if (isset($_POST['loginMail']) && isset($_POST['loginPassword'])) {
     if ($row == 1) {
         $loginPassword = hash('sha256', $loginPassword);
         if ($data['PASSWORD'] === $loginPassword) {
+            $_SESSION['id'] = $data['ID'];
             $_SESSION['username'] = $data['USERNAME'];
             $_SESSION['firstname'] = $data['FIRSTNAME'];
             $_SESSION['lastname'] = $data['LASTNAME'];
