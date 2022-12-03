@@ -12,6 +12,9 @@ if (isset($_POST['loginMail']) && isset($_POST['loginPassword'])) {
         $loginPassword = hash('sha256', $loginPassword);
         if ($data['PASSWORD'] === $loginPassword) {
             $_SESSION['username'] = $data['USERNAME'];
+            $_SESSION['firstname'] = $data['FIRSTNAME'];
+            $_SESSION['lastname'] = $data['LASTNAME'];
+            $_SESSION['mail'] = $data['MAIL'];
             header('Location:map.php');
         } else {
             header('Location:index.php?login_error=password');
