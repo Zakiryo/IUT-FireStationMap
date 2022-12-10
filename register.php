@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Enregistrement d'un nouvel utilisateur dans la base de données.
+ */
 require_once 'database.php';
 if (!empty($_POST['registerUsername']) && !empty($_POST['registerMail']) && !empty($_POST['registerPassword']) && !empty($_POST['registerLastName']) && !empty($_POST['registerFirstName'])) {
     $registerUsername = htmlspecialchars($_POST['registerUsername']);

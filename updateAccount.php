@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Mise à jour des informations du compte de la session actuelle côté serveur.
+ */
 session_start();
 require_once("database.php");
 if (!empty($_POST['confirmPassword'])) {

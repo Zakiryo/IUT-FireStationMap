@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Connexion d'un utilisateur et vérification du informations du formulaires.
+ */
 session_start();
 require_once 'database.php';
 if (!empty($_POST['loginMail']) && !empty($_POST['loginPassword'])) {
