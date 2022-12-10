@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once 'database.php';
-if (isset($_POST['loginMail']) && isset($_POST['loginPassword'])) {
+if (!empty($_POST['loginMail']) && !empty($_POST['loginPassword'])) {
     $loginMail = htmlspecialchars($_POST['loginMail']);
     $loginPassword = htmlspecialchars($_POST['loginPassword']);
     $check = $db->prepare('SELECT * FROM users WHERE mail = ?');

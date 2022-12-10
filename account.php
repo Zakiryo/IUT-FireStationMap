@@ -59,6 +59,42 @@ if (!isset($_SESSION['username'])) {
                             <input type="password" name="confirmPassword" class="form-control" id="confirmPassword">
                         </div>
                         <div class="mt-5 text-center"><button class="btn btn-primary profile-button" id="confirmModify" type="submit">Mettre à jour votre profil</button></div>
+                        <?php
+                        if (isset($_GET['update_error'])) {
+                            $error = htmlspecialchars($_GET['update_error']);
+                            switch ($error) {
+                                case 'all_empty':
+                        ?>
+                                    <div class="alert alert-danger">
+                                        <b>Erreur : Merci de remplir au moins un champ.</b>
+                                    </div>
+                                <?php
+                                    break;
+
+                                case 'wrong_password':
+                                ?>
+                                    <div class="alert alert-danger">
+                                        <b>Erreur : Le mot de passe saisi est incorrect.</b>
+                                    </div>
+                                <?php
+                                    break;
+                                case 'password_not_set':
+                                ?>
+                                    <div class="alert alert-danger">
+                                        <b>Erreur : Merci de saisir votre mot de passe.</b>
+                                    </div>
+                                <?php
+                                    break;
+                                case 'already_exist':
+                                ?>
+                                    <div class="alert alert-danger">
+                                        <b>Erreur : L'adresse électronique saisie existe déjà. Merci d'en choisir une autre.</b>
+                                    </div>
+                        <?php
+                                    break;
+                            }
+                        }
+                        ?>
                     </div>
                 </div>
             </div>

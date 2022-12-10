@@ -1,13 +1,16 @@
 <?php
 require_once 'database.php';
-if (isset($_POST['registerUsername']) && isset($_POST['registerMail']) && isset($_POST['registerPassword']) && isset($_POST['registerLastName']) && isset($_POST['registerFirstName'])) {
+if (!empty($_POST['registerUsername']) && !empty($_POST['registerMail']) && !empty($_POST['registerPassword']) && !empty($_POST['registerLastName']) && !empty($_POST['registerFirstName'])) {
     $registerUsername = htmlspecialchars($_POST['registerUsername']);
     $registerMail = htmlspecialchars($_POST['registerMail']);
     $registerPassword = htmlspecialchars($_POST['registerPassword']);
     $registerLastName = htmlspecialchars($_POST['registerLastName']);
     $registerFirstName = htmlspecialchars($_POST['registerFirstName']);
-    $check = $db->prepare('SELECT MAIL, PASSWORD FROM users WHERE mail = ?');
-    $check->execute(array($registerMail));
+    $check = $db->prepare('SELECT MAIL, USERNAME FROM users WHERE mail = :mail OR username = :username');
+    $check->execute(array(
+        'mail' => $registerMail,
+        'username' => $registerUsername
+    ));
     $data = $check->fetch();
     $row = $check->rowCount();
 

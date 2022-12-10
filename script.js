@@ -1,4 +1,8 @@
 const stations = L.layerGroup();
+var favoriteIcon = L.icon({
+    iconUrl: 'favorite_icon.png'
+});
+const favorites = L.layerGroup({ icon: favoriteIcon });
 const map = L.map('map').setView([48.866295694987045, 2.3440361022949223], 13);
 const save = [];
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
@@ -14,10 +18,10 @@ function initMap() {
         url: 'casernes.json',
         success: function (data) {
             $.each(data, function (i) {
-                stations.addLayer(
-                    L.marker(data[i].fields.geo_point_2d)
-                        .bindPopup(`Secteur : ${data[i].fields.deno_cs}</br>
-                                    Adresse : ${data[i].fields.adresse}`));
+                let marker = L.marker(data[i].fields.geo_point_2d, alt = i)
+                    .bindPopup(`Secteur : ${data[i].fields.deno_cs}</br>
+                            Adresse : ${data[i].fields.adresse}`);
+                stations.addLayer(marker);
             })
             stations.addTo(map);
         }

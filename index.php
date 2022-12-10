@@ -21,6 +21,15 @@
             <?php
             }
             ?>
+            <?php
+            if (isset($_GET['update_success'])) {
+            ?>
+                <div class="alert alert-success">
+                    <b>Vos informations ont été mises à jour ! Merci de vous reconnecter.</b>
+                </div>
+            <?php
+            }
+            ?>
             <h2>Se connecter</h2>
             <div class="mb-3">
                 <label for="loginMail" class="form-label">Adresse électronique</label>
@@ -54,8 +63,6 @@
             }
             ?>
         </form>
-
-
         <form action="register.php" method="post">
             <h2>Nouveau visiteur ? Inscrivez-vous !</h2>
             <div class="mb-3">
@@ -86,7 +93,7 @@
                     case 'already_exist':
             ?>
                         <div class="alert alert-danger">
-                            <b>Erreur : Ce compte existe déjà.</b>
+                            <b>Erreur : Ce compte existe déjà. Merci de choisir un mail ou un pseudo différent.</b>
                         </div>
             <?php
                         break;
