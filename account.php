@@ -37,6 +37,7 @@ if (!isset($_SESSION['username'])) {
                             <span class="col-md-6"><?php echo $_SESSION['firstname'] ?></span>
                             <span class="col-md-6"><?php echo $_SESSION['lastname'] ?></span>
                         </div>
+                        <span class="text-black-50"><?php echo $_SESSION['mainaddress'] ?></span>
 
                     </div>
                 </div>

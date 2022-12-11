@@ -23,7 +23,14 @@ function initMap() {
                 stations.addLayer(marker);
                 marker.bindPopup(`Secteur : ${data[i].fields.deno_cs}</br>
                                 Adresse : ${data[i].fields.adresse}</br>
-                                <button type="button" class="btn btn-outline-dark" onclick="createRoute('${data[i].fields.geo_point_2d}');">S'y rendre</button>`);
+                                <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    S'y rendre depuis
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li onclick="createRoute('${data[i].fields.geo_point_2d}');"><a class="dropdown-item">62 Avenue de la République, Montgeron 91230</a></li>
+                                </ul>
+                                </div>`);
             })
             stations.addTo(map);
         }

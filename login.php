@@ -13,6 +13,14 @@ if (!empty($_POST['loginMail']) && !empty($_POST['loginPassword'])) {
     $data = $check->fetch();
     $row = $check->rowCount();
     if ($row == 1) {
+        $checkAddress = $db->prepare('SELECT * FROM addresses WHERE USERID = ?');
+        $checkAddress->execute(array($data['ID']));
+        $dataAddress = $checkAddress->fetch();
+
+        $checkMainAddress = $db->prepare('SELECT * FROM addresses WHERE USERID = ? AND ISMAIN = 1');
+        $checkMainAddress->execute(array($data['ID']));
+        $dataMainAddress = $checkMainAddress->fetch();
+
         $loginPassword = hash('sha256', $loginPassword);
         if ($data['PASSWORD'] === $loginPassword) {
             $_SESSION['id'] = $data['ID'];
@@ -20,6 +28,8 @@ if (!empty($_POST['loginMail']) && !empty($_POST['loginPassword'])) {
             $_SESSION['firstname'] = $data['FIRSTNAME'];
             $_SESSION['lastname'] = $data['LASTNAME'];
             $_SESSION['mail'] = $data['MAIL'];
+            $_SESSION['mainaddress'] = $dataMainAddress['ADDRESS'] . ", " . $dataMainAddress['CITY'] . " " . $dataMainAddress['POSTALCODE'];
+            $_SESSION['addresses'] = $dataAddress['ADDRESS'] . ", " . $dataAddress['CITY'] . " " . $dataAddress['POSTALCODE'];
             header('Location:map.php');
         } else {
             header('Location:index.php?login_error=password');

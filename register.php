@@ -4,12 +4,15 @@
  * Enregistrement d'un nouvel utilisateur dans la base de données.
  */
 require_once 'database.php';
-if (!empty($_POST['registerUsername']) && !empty($_POST['registerMail']) && !empty($_POST['registerPassword']) && !empty($_POST['registerLastName']) && !empty($_POST['registerFirstName'])) {
+if (!empty($_POST['registerUsername']) && !empty($_POST['registerMail']) && !empty($_POST['registerPassword']) && !empty($_POST['registerLastName']) && !empty($_POST['registerFirstName']) && !empty($_POST['registerAddress']) && !empty($_POST['registerCity']) && !empty($_POST['registerCode'])) {
     $registerUsername = htmlspecialchars($_POST['registerUsername']);
     $registerMail = htmlspecialchars($_POST['registerMail']);
     $registerPassword = htmlspecialchars($_POST['registerPassword']);
     $registerLastName = htmlspecialchars($_POST['registerLastName']);
     $registerFirstName = htmlspecialchars($_POST['registerFirstName']);
+    $registerAddress = htmlspecialchars($_POST['registerAddress']);
+    $registerCity = htmlspecialchars($_POST['registerCity']);
+    $registerCode = htmlspecialchars($_POST['registerCode']);
     $check = $db->prepare('SELECT MAIL, USERNAME FROM users WHERE mail = :mail OR username = :username');
     $check->execute(array(
         'mail' => $registerMail,
@@ -27,6 +30,16 @@ if (!empty($_POST['registerUsername']) && !empty($_POST['registerMail']) && !emp
             'firstname' => $registerFirstName,
             'password' => $registerPassword,
             'mail' => $registerMail
+        ));
+        $getID = $db->prepare('SELECT ID FROM users WHERE mail = ?');
+        $getID->execute(array($registerMail));
+        $id = $getID->fetch();
+        $insertAddress = $db->prepare("INSERT INTO `addresses` (`ID`, `USERID`, `ADDRESS`, `CITY`, `POSTALCODE`, `ISMAIN`) VALUES (NULL, :userid, :address, :city, :code, '1')");
+        $insertAddress->execute(array(
+            'userid' => $id['ID'],
+            'address' => $registerAddress,
+            'city' => $registerCity,
+            'code' => $registerCode
         ));
         header('Location:index.php?success');
     } else {
