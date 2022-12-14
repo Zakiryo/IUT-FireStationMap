@@ -24,7 +24,7 @@ if (!isset($_SESSION['username'])) {
             <input class="form-control me-2" type="search" placeholder="Rechercher une caserne..." aria-label="Search">
         </form>
         <h2>Bonjour <?php echo $_SESSION['username'] ?> !</h2>
-        <h2><a href="account.php">Voir mon profil</a><br><a href="disconnect.php">Se déconnecter</a>
+        <h2><a href="account.php">Voir mon profil</a><br><a href="phpFunctions/disconnect.php">Se déconnecter</a>
         </h2>
     </div>
     <div id="map">

@@ -13,7 +13,7 @@
 
 <body>
     <div class="registerLogin">
-        <form action="login.php" method="post">
+        <form action="phpFunctions/login.php" method="post">
             <?php
             if (isset($_GET['disconnected'])) {
             ?>
@@ -65,7 +65,7 @@
             }
             ?>
         </form>
-        <form action="register.php" method="post">
+        <form action="phpFunctions/register.php" method="post">
             <h2>Nouveau visiteur ? Inscrivez-vous !</h2>
             <div class="mb-3">
                 <label for="userName" class="form-label">Votre pseudonyme :</label>

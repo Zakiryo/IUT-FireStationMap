@@ -1,14 +1,24 @@
 const stations = L.layerGroup();
-var favoriteIcon = L.icon({
-    iconUrl: 'favorite_icon.png'
-});
-const favorites = L.layerGroup({ icon: favoriteIcon });
 const map = L.map('map').setView([48.866295694987045, 2.3440361022949223], 13);
 const save = [];
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
 
-$(document).ready(() => {
+const mainAddress = function () {
+    var tmp = null;
+    $.ajax({
+        async: false,
+        type: "POST",
+        url: "phpFunctions/getMainAddress.php",
+        datatype: "json",
+        success:
+            function (data) {
+                tmp = JSON.parse(data);
+            }
+    });
+    return tmp;
+}();
 
+$(document).ready(() => {
     const stationSearch = document.querySelector('input');
     stationSearch.addEventListener('input', searchStation);
     initMap();
@@ -19,6 +29,7 @@ function initMap() {
         url: 'casernes.json',
         success: function (data) {
             $.each(data, function (i) {
+                let address = `${mainAddress['ADDRESS']}, ${mainAddress['POSTALCODE']} ${mainAddress['CITY']}`;
                 const marker = L.marker(data[i].fields.geo_point_2d);
                 stations.addLayer(marker);
                 marker.bindPopup(`Secteur : ${data[i].fields.deno_cs}</br>
@@ -28,7 +39,7 @@ function initMap() {
                                     S'y rendre depuis
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li onclick="createRoute('${data[i].fields.geo_point_2d}');"><a class="dropdown-item">62 Avenue de la République, Montgeron 91230</a></li>
+                                    <li onclick="createRoute('${data[i].fields.geo_point_2d}', '${address}');"><a class="dropdown-item">${address}</a></li>
                                 </ul>
                                 </div>`);
             })
@@ -50,10 +61,24 @@ function searchStation(e) {
     });
 }
 
-function createRoute(coords) {
+function createRoute(coords, address) {
+    const pointedAddress = function () {
+        var tmp = null;
+        $.ajax({
+            async: false,
+            type: "POST",
+            url: `https://nominatim.openstreetmap.org/search?q=${encodeURI(address)}&format=json`,
+            datatype: "json",
+            success:
+                function (data) {
+                    tmp = data;
+                }
+        });
+        return tmp;
+    }();
     L.Routing.control({
         waypoints: [
-            L.latLng(48.93065947179935, 2.54744213526183),
+            L.latLng(pointedAddress[0].lat, pointedAddress[0].lon),
             L.latLng(coords.split(','))
         ],
         router: new L.Routing.osrmv1({

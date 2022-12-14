@@ -30,13 +30,13 @@ if (!empty($_POST['loginMail']) && !empty($_POST['loginPassword'])) {
             $_SESSION['mail'] = $data['MAIL'];
             $_SESSION['mainaddress'] = $dataMainAddress['ADDRESS'] . ", " . $dataMainAddress['CITY'] . " " . $dataMainAddress['POSTALCODE'];
             $_SESSION['addresses'] = $dataAddress['ADDRESS'] . ", " . $dataAddress['CITY'] . " " . $dataAddress['POSTALCODE'];
-            header('Location:map.php');
+            header('Location:../map.php');
         } else {
-            header('Location:index.php?login_error=password');
+            header('Location:../index.php?login_error=password');
         }
     } else {
-        header('Location:index.php?login_error=not_exist');
+        header('Location:../index.php?login_error=not_exist');
     }
 } else {
-    header('Location:index.php');
+    header('Location:../index.php');
 }

@@ -29,7 +29,7 @@ if (!empty($_POST['confirmPassword'])) {
                         'id' => $_SESSION['id']
                     ));
                 } else {
-                    header('Location:account.php?update_error=already_exist');
+                    header('Location:../account.php?update_error=already_exist');
                     die();
                 }
             }
@@ -49,17 +49,17 @@ if (!empty($_POST['confirmPassword'])) {
             }
 
             session_destroy();
-            header('Location:index.php?update_success');
+            header('Location:../index.php?update_success');
             die();
         } else {
-            header('Location:account.php?update_error=all_empty');
+            header('Location:../account.php?update_error=all_empty');
             die();
         }
     } else {
-        header('Location:account.php?update_error=wrong_password');
+        header('Location:../account.php?update_error=wrong_password');
         die();
     }
 } else {
-    header('Location:account.php?update_error=password_not_set');
+    header('Location:../account.php?update_error=password_not_set');
     die();
 }

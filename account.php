@@ -22,11 +22,11 @@ if (!isset($_SESSION['username'])) {
     <div class="head">
         <img src="logo.svg" alt="" width="8%" height="8%">
         <h2>Bonjour <?php echo $_SESSION['username'] ?> !</h2>
-        <h2><a href="account.php">Voir mon profil</a><br><a href="disconnect.php">Se déconnecter</a>
+        <h2><a href="account.php">Voir mon profil</a><br><a href="phpFunctions/disconnect.php">Se déconnecter</a>
         </h2>
     </div>
     <hr>
-    <form method="post" action="updateAccount.php">
+    <form method="post" action="phpFunctions/updateAccount.php">
         <div class="container rounded bg-white mt-5 mb-5">
             <div class="row">
                 <div class="col-md-3 border-right">

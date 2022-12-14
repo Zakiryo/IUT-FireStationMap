@@ -41,10 +41,10 @@ if (!empty($_POST['registerUsername']) && !empty($_POST['registerMail']) && !emp
             'city' => $registerCity,
             'code' => $registerCode
         ));
-        header('Location:index.php?success');
+        header('Location:../index.php?success');
     } else {
-        header('Location:index.php?register_error=already_exist');
+        header('Location:../index.php?register_error=already_exist');
     }
 } else {
-    header('Location:index.php?register_error=empty');
+    header('Location:../index.php?register_error=empty');
 }
