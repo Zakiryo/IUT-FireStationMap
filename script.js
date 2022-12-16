@@ -1,4 +1,10 @@
 const stations = L.layerGroup();
+var favoriteIcon = L.icon({
+    iconUrl: 'favorite.png'
+});
+const favorites = L.layerGroup({
+    icon: favoriteIcon
+});
 const map = L.map('map').setView([48.866295694987045, 2.3440361022949223], 13);
 const save = [];
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
@@ -41,8 +47,10 @@ function initMap() {
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                     <li onclick="createRoute('${data[i].fields.geo_point_2d}', '${address}');"><a class="dropdown-item">${address}</a></li>
                                 </ul>
-                                </div>`);
-            })
+                                </div>
+                                <button type="button" class="btn btn-success" onclick="displayMemos('${98 + i}');">Consulter les mémos</button>
+                                <button type="button" class="btn btn-warning" onclick="addToFavorite('${98 + i}');">Ajouter aux favoris</button>`);
+            });
             stations.addTo(map);
         }
     });
@@ -86,4 +94,13 @@ function createRoute(coords, address) {
             profile: 'car'
         })
     }).addTo(map);
+}
+
+function displayMemos(id) {
+    stations._layers[id].setPopupContent("test");
+}
+
+function addToFavorite(id) {
+    favorites.addLayer(stations._layers[id]);
+    console.log(favorites);
 }
