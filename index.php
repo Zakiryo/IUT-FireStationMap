@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://osmnames.org/api/v1/autocomplete.js"></script>
     <link href="https://osmnames.org/api/v1/autocomplete.css" rel="stylesheet" />
+    <link rel="icon" href="img/logo.svg">
 </head>
 
 <body>
@@ -95,7 +96,7 @@
                 <div class="col-md-6"><label class="labels">Votre ville : </label><input type="text" name="registerCity" class="form-control" placeholder="Ville" value=""></div>
                 <div class="col-md-6"><label class="labels">Votre code postal : </label><input type="number" name="registerCode" class="form-control" value="" placeholder="Code postal"></div>
             </div>
-            <button type="submit" class="btn btn-primary">S'inscrire</button>
+            <button type="submit" id="btnRegister" class="btn btn-primary">S'inscrire</button>
             <?php
             if (isset($_GET['register_error'])) {
                 $error = htmlspecialchars($_GET['register_error']);

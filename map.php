@@ -15,11 +15,12 @@ if (!isset($_SESSION['username'])) {
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.svg">
 </head>
 
 <body>
     <div class="head">
-        <img src="logo.svg" alt="" width="8%" height="8%">
+        <img src="img/logo.svg" alt="" width="8%" height="8%">
         <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Rechercher une caserne..." aria-label="Search">
         </form>
@@ -35,7 +36,7 @@ if (!isset($_SESSION['username'])) {
     <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
     <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
-    <script src="script.js"></script>
+    <script src="mapLoad.js"></script>
 </body>
 
 </html>
