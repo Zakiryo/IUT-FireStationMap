@@ -7,7 +7,7 @@ let isFavoriteDisplay = false;
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
 
 const mainAddress = function () {
-    var tmp = null;
+    let tmp = null;
     $.ajax({
         async: false,
         type: "POST",
@@ -22,8 +22,7 @@ const mainAddress = function () {
 }();
 
 $(document).ready(() => {
-    const stationSearch = document.querySelector('input');
-    stationSearch.addEventListener('input', searchStation);
+    $("input").keyup(searchStation);
     initMap();
 });
 
@@ -127,7 +126,7 @@ function addToFavorite(sector) {
         type: "POST",
         url: "phpFunctions/addFavorite.php",
         data: `sector=${sector}`,
-        success: function (data) {
+        success: function () {
             location.reload();
         }
     });
