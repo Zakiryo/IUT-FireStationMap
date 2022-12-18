@@ -2,6 +2,8 @@ const stations = L.layerGroup();
 const favorites = L.layerGroup();
 const map = L.map('map').setView([48.866295694987045, 2.3440361022949223], 13);
 const save = [];
+let saveFav = [];
+let isFavoriteDisplay = false;
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
 
 const mainAddress = function () {
@@ -26,6 +28,7 @@ $(document).ready(() => {
 });
 
 function initMap() {
+    $('.leaflet-control-attribution').hide();
     $.ajax({
         url: 'casernes.json',
         success: function (data) {
@@ -45,9 +48,11 @@ function initMap() {
                                 </div>
                                 <button type="button" class="btn btn-success" onclick="displayMemos('${98 + i}');">Consulter les mémos</button>
                                 <button type="button" class="btn btn-warning"
-                                onclick="checkFavorite('${data[i].fields.deno_cs}') ? addToFavorite('${data[i].fields.deno_cs}') : deleteFavorite('${data[i].fields.deno_cs}');">
-                                ${checkFavorite(data[i].fields.deno_cs) ? "Ajouter aux favoris" : "Supprimer des favoris"}</button>
+                                onclick="checkFavorite('${data[i].fields.deno_cs}') ? deleteFavorite('${data[i].fields.deno_cs}') : addToFavorite('${data[i].fields.deno_cs}');">
+                                ${checkFavorite(data[i].fields.deno_cs) ? "Supprimer des favoris" : "Ajouter aux favoris"}</button>
                                 `);
+                if (checkFavorite(data[i].fields.deno_cs))
+                    favorites.addLayer(marker);
             });
             stations.addTo(map);
         }
@@ -63,8 +68,27 @@ function searchStation(e) {
         }
     });
     save.forEach(element => {
-        if (element.getPopup().getContent().includes(search.toUpperCase())) stations.addLayer(element)
+        if (element.getPopup().getContent().includes(search.toUpperCase()))
+            stations.addLayer(element)
     });
+}
+
+function displayFavorites() {
+    if (!isFavoriteDisplay) {
+        stations.eachLayer(function (layer) {
+            if (!favorites.hasLayer(layer)) {
+                saveFav.push(layer);
+                stations.removeLayer(layer);
+                isFavoriteDisplay = true;
+            }
+        });
+    } else {
+        saveFav.forEach(element => {
+            stations.addLayer(element)
+        });
+        isFavoriteDisplay = false;
+        saveFav = [];
+    }
 }
 
 function createRoute(coords, address) {
@@ -129,9 +153,9 @@ function checkFavorite(sector) {
         data: `sector=${sector}`,
         success: function (data) {
             if (data == 1) {
-                result = true;
-            } else {
                 result = false;
+            } else {
+                result = true;
             }
         }
     })

@@ -43,8 +43,8 @@ if (!empty($_POST['registerUsername']) && !empty($_POST['registerMail']) && !emp
         ));
         header('Location:../index.php?success');
     } else {
-        header('Location:../index.php?register_error=already_exist');
+        header('Location:../registerPage.php?register_error=already_exist');
     }
 } else {
-    header('Location:../index.php?register_error=empty');
+    header('Location:../registerPage.php?register_error=empty');
 }

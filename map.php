@@ -37,6 +37,12 @@ if (!isset($_SESSION['username'])) {
     <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
     <script src="mapLoad.js"></script>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="toggleFavorite" onchange="displayFavorites();">
+        <label class="form-check-label" for="toggleFavorite">
+            N'afficher que vos favoris
+        </label>
+    </div>
 </body>
 
 </html>

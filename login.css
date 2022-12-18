@@ -7,10 +7,9 @@ body {
 form {
     display: flex;
     flex-direction: column;
-    margin: 3em;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 1em;
-    padding: 3em;
+    padding: 2em;
     background-color: rgb(230, 229, 229);
 }
 
@@ -23,5 +22,10 @@ form {
 }
 
 #btnRegister {
+    margin-top: 1em;
+}
+
+.bottomMessage {
+    text-align: center;
     margin-top: 1em;
 }
