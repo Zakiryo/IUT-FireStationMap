@@ -13,9 +13,9 @@ if (!empty($_POST['loginMail']) && !empty($_POST['loginPassword'])) {
     $data = $check->fetch();
     $row = $check->rowCount();
     if ($row == 1) {
-        $checkAddress = $db->prepare('SELECT * FROM addresses WHERE USERID = ?');
+        $checkAddress = $db->prepare('SELECT * FROM addresses WHERE USERID = ? AND ISMAIN = 0');
         $checkAddress->execute(array($data['ID']));
-        $dataAddress = $checkAddress->fetch();
+        $dataAddress = $checkAddress->fetchAll();
 
         $checkMainAddress = $db->prepare('SELECT * FROM addresses WHERE USERID = ? AND ISMAIN = 1');
         $checkMainAddress->execute(array($data['ID']));
@@ -29,7 +29,16 @@ if (!empty($_POST['loginMail']) && !empty($_POST['loginPassword'])) {
             $_SESSION['lastname'] = $data['LASTNAME'];
             $_SESSION['mail'] = $data['MAIL'];
             $_SESSION['mainaddress'] = $dataMainAddress['ADDRESS'] . ", " . $dataMainAddress['CITY'] . " " . $dataMainAddress['POSTALCODE'];
-            $_SESSION['addresses'] = $dataAddress['ADDRESS'] . ", " . $dataAddress['CITY'] . " " . $dataAddress['POSTALCODE'];
+            $_SESSION['addresses'] = array();
+            foreach ($dataAddress as $address) {
+                array_push(
+                    $_SESSION['addresses'],
+                    array(
+                        'libelle' => $address['ADDRESS'] . ", " . $address['CITY'] . " " . $address['POSTALCODE'],
+                        'id' => $address['ID']
+                    )
+                );
+            }
             header('Location:../map.php');
         } else {
             header('Location:../index.php?login_error=password');

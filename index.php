@@ -33,14 +33,23 @@
             <?php
             }
             ?>
+            <?php
+            if (isset($_GET['success'])) {
+            ?>
+                <div class="alert alert-success">
+                    <b>Votre compte vient d'être créé ! Vous pouvez maintenant vous connecter.</b>
+                </div>
+            <?php
+            }
+            ?>
             <h2>Se connecter</h2>
             <div class="mb-3">
                 <label for="loginMail" class="form-label">Adresse électronique</label>
-                <input type="email" name="loginMail" class="form-control" id="loginMail" placeholder="exemple@exemple.com">
+                <input type="email" maxlength=90 name="loginMail" class="form-control" id="loginMail" placeholder="exemple@exemple.com">
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                <input type="password" name="loginPassword" class="form-control" id="loginPassword">
+                <input type="password" maxlength=90 name="loginPassword" class="form-control" id="loginPassword">
             </div>
             <button type="submit" class="btn btn-primary">Connexion</button>
             <?php

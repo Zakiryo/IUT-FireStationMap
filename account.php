@@ -21,8 +21,8 @@ if (!isset($_SESSION['username'])) {
 
 <body>
     <div class="head">
-        <img src="logo.svg" alt="" width="8%" height="8%">
-        <h2>Bonjour <?php echo $_SESSION['username'] ?> !</h2>
+        <img src="img/logo.svg" alt="" width="8%" height="8%">
+        <h2>Profil de <?php echo $_SESSION['username'] ?></h2>
         <h2><a href="account.php">Voir mon profil</a><br><a href="phpFunctions/disconnect.php">Se déconnecter</a>
         </h2>
     </div>
@@ -48,19 +48,22 @@ if (!isset($_SESSION['username'])) {
                             <h4 class="text-right">Modifier vos informations : </h4>
                         </div>
                         <div class="row mt-2">
-                            <div class="col-md-6"><label class="labels">Prénom</label><input type="text" name="modifyFirstName" class="form-control" placeholder="Votre nouveau prénom" value=""></div>
-                            <div class="col-md-6"><label class="labels">Nom de famille</label><input type="text" name="modifyLastName" class="form-control" value="" placeholder="Votre nouveau nom"></div>
+                            <div class="col-md-6"><label class="labels">Prénom</label><input type="text" maxlength=90 name="modifyFirstName" class="form-control" placeholder="Votre nouveau prénom" value=""></div>
+                            <div class="col-md-6"><label class="labels">Nom de famille</label><input type="text" maxlength=90 name="modifyLastName" class="form-control" value="" placeholder="Votre nouveau nom"></div>
                         </div>
                         <br>
                         <div class="mb-3">
                             <label for="modifyMail" class="form-label">Votre nouvelle adresse électronique</label>
-                            <input type="email" name="modifyMail" class="form-control" id="modifyMail" placeholder="exemple@exemple.com">
+                            <input type="email" maxlength=90 name="modifyMail" class="form-control" id="modifyMail" placeholder="exemple@exemple.com">
                         </div>
                         <div class="mb-3">
                             <label for="exampleInputPassword1" class="form-label">Merci de retaper votre mot de passe : </label>
-                            <input type="password" name="confirmPassword" class="form-control" id="confirmPassword">
+                            <input type="password" maxlength=90 name="confirmPassword" class="form-control" id="confirmPassword">
                         </div>
-                        <div class="mt-5 text-center"><button class="btn btn-primary profile-button" id="confirmModify" type="submit">Mettre à jour votre profil</button></div>
+                        <div class="mt-5 text-center">
+                            <button class="btn btn-secondary" id="backToMap" type="button" onclick="window.location.href='map.php';">Retour à la carte</button>
+                            <button class="btn btn-primary profile-button" id="confirmModify" type="submit">Mettre à jour votre profil</button>
+                        </div>
                         <?php
                         if (isset($_GET['update_error'])) {
                             $error = htmlspecialchars($_GET['update_error']);
@@ -99,9 +102,35 @@ if (!isset($_SESSION['username'])) {
                         ?>
                     </div>
                 </div>
-            </div>
-        </div>
     </form>
+    <div class="col-md-4 border-right" id="listAddresses">
+        <div class="d-flex flex-column align-items-center text-center p-7 py-5">
+            <span class="font-weight-bold">Vos adresses : </span>
+            <span class="text-black-50"><?php echo $_SESSION['mainaddress'] ?></span>
+            <?php
+            foreach ($_SESSION["addresses"] as $address) {
+                $index = 0;
+            ?><span class="text-black-50"><?php echo $address['libelle'] ?>
+                    <form method="post" action="phpFunctions/deleteAddress.php">
+                        <input type="hidden" name="addressID" value="<?php echo $address['id'] ?>">
+                        <input type="hidden" name="keyValue" value="<?php echo $index ?>">
+                        <button type="submit" class="btn btn-outline-danger">Supprimer</button>
+                    </form>
+                </span>
+            <?php ++$index;
+            } ?>
+        </div>
+        <form method="post" action="phpFunctions/addAddress.php" style="text-align: center;">
+            <div class="mb-3">
+                <input class="form-control" name="newAddress" id="newAddress" type="text" maxlength=90 placeholder="Intitulé de l'adresse">
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-6"><input type="text" maxlength=90 name="newCity" class="form-control" placeholder="Ville" value=""></div>
+                <div class="col-md-6"><input type="number" maxlength="5" min="10000" max="99999" name="newCode" class="form-control" value="" placeholder="Code postal"></div>
+            </div>
+            <button type="submit" class="btn btn-outline-success" style="margin-top:1em;">Ajouter une nouvelle adresse</button>
+        </form>
+    </div>
 </body>
 
 </html>

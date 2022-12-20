@@ -4,7 +4,7 @@ body {
 
 .form-control:focus {
     box-shadow: none;
-    border-color: #BA68C8
+    border-color: #BA68C8;
 }
 
 .profile-button {
@@ -33,12 +33,9 @@ body {
 }
 
 .labels {
-    font-size: 11px
+    font-size: 11px;
 }
 
-.add-experience:hover {
-    background: #BA68C8;
-    color: #fff;
-    cursor: pointer;
-    border: solid 1px #BA68C8
+#listAddresses {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }

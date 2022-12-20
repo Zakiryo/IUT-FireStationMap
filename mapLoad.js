@@ -21,6 +21,21 @@ const mainAddress = function () {
     return tmp;
 }();
 
+const addresses = function () {
+    let tmp = null;
+    $.ajax({
+        async: false,
+        type: "POST",
+        url: "phpFunctions/getAddresses.php",
+        datatype: "json",
+        success:
+            function (data) {
+                tmp = JSON.parse(data);
+            }
+    });
+    return tmp;
+}();
+
 $(document).ready(() => {
     $("input").keyup(searchStation);
     initMap();
@@ -32,9 +47,15 @@ function initMap() {
         url: 'casernes.json',
         success: function (data) {
             $.each(data, function (i) {
+                let strAdr = "";
                 let address = `${mainAddress['ADDRESS']}, ${mainAddress['POSTALCODE']} ${mainAddress['CITY']}`;
+                addresses.forEach(function (adr) {
+                    let buildedAdr = `${adr['ADDRESS']}, ${adr['POSTALCODE']} ${adr['CITY']}`;
+                    strAdr += `<li onclick="createRoute('${data[i].fields.geo_point_2d}', '${buildedAdr}');"><a class="dropdown-item">${buildedAdr}</a></li>`;
+                });
                 const marker = L.marker(data[i].fields.geo_point_2d);
                 stations.addLayer(marker);
+                console.log(strAdr);
                 marker.bindPopup(`Secteur : ${data[i].fields.deno_cs}</br>
                                 Adresse : ${data[i].fields.adresse}</br>
                                 <div class="dropdown">
@@ -43,6 +64,7 @@ function initMap() {
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                                     <li onclick="createRoute('${data[i].fields.geo_point_2d}', '${address}');"><a class="dropdown-item">${address}</a></li>
+                                    ${strAdr}
                                 </ul>
                                 </div>
                                 <button type="button" class="btn btn-success" onclick="displayMemos('${98 + i}');">Consulter les mémos</button>

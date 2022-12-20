@@ -18,31 +18,31 @@
             <h2>Nouveau visiteur ? Inscrivez-vous !</h2>
             <div class="mb-3">
                 <label for="userName" class="form-label">Votre pseudonyme :</label>
-                <input class="form-control" name="registerUsername" id="userName" type="text" placeholder="Pseudo">
+                <input class="form-control" maxlength=90 name="registerUsername" id="userName" type="text" placeholder="Pseudo">
             </div>
             <div class="mb-3">
                 <label for="registerMail" class="form-label">Votre adresse électronique valide :</label>
-                <input type="email" name="registerMail" class="form-control" id="registerMail" placeholder="exemple@exemple.com">
+                <input type="email" maxlength=90 name="registerMail" class="form-control" id="registerMail" placeholder="exemple@exemple.com">
             </div>
             <div class="mb-3">
                 <label for="exampleInputPassword1" class="form-label">Mot de passe</label>
-                <input type="password" name="registerPassword" class="form-control" id="registerPassword">
+                <input type="password" maxlength=90 name="registerPassword" class="form-control" id="registerPassword">
             </div>
             <div class="mb-3">
                 <label for="lastName" class="form-label">Votre nom de famille :</label>
-                <input class="form-control" name="registerLastName" id="lastName" type="text" placeholder="Nom">
+                <input class="form-control" maxlength=90 name="registerLastName" id="lastName" type="text" placeholder="Nom">
             </div>
             <div class="mb-3">
                 <label for="firstName" class="form-label">Votre prénom :</label>
-                <input class="form-control" name="registerFirstName" id="firstName" type="text" placeholder="Prénom">
+                <input class="form-control" maxlength=90 name="registerFirstName" id="firstName" type="text" placeholder="Prénom">
             </div>
             <div class="mb-3">
                 <label for="registerAddress" class="form-label">Votre adresse principale :</label>
-                <input class="form-control" name="registerAddress" id="registerAddress" type="text" placeholder="Adresse principale">
+                <input class="form-control" maxlength=90 name="registerAddress" id="registerAddress" type="text" placeholder="Adresse principale">
             </div>
             <div class="row mt-2">
-                <div class="col-md-6"><label class="labels">Votre ville : </label><input type="text" name="registerCity" class="form-control" placeholder="Ville" value=""></div>
-                <div class="col-md-6"><label class="labels">Votre code postal : </label><input type="number" name="registerCode" class="form-control" value="" placeholder="Code postal"></div>
+                <div class="col-md-6"><label class="labels">Votre ville : </label><input type="text" maxlength=90 name="registerCity" class="form-control" placeholder="Ville" value=""></div>
+                <div class="col-md-6"><label class="labels">Votre code postal : </label><input type="number" maxlength="5" min="10000" max="99999" name="registerCode" class="form-control" value="" placeholder="Code postal"></div>
             </div>
             <button type="submit" id="btnRegister" class="btn btn-primary">S'inscrire</button>
             <?php
