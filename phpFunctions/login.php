@@ -21,8 +21,7 @@ if (!empty($_POST['loginMail']) && !empty($_POST['loginPassword'])) {
         $checkMainAddress->execute(array($data['ID']));
         $dataMainAddress = $checkMainAddress->fetch();
 
-        $loginPassword = hash('sha256', $loginPassword);
-        if ($data['PASSWORD'] === $loginPassword) {
+        if (password_verify($loginPassword, $data['PASSWORD'])) {
             $_SESSION['id'] = $data['ID'];
             $_SESSION['username'] = $data['USERNAME'];
             $_SESSION['firstname'] = $data['FIRSTNAME'];

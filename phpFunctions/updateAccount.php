@@ -7,15 +7,13 @@ session_start();
 require_once("database.php");
 if (!empty($_POST['confirmPassword'])) {
     $modifyPassword = htmlspecialchars($_POST['confirmPassword']);
-    $modifyPassword = hash('sha256', $modifyPassword);
-    $check = $db->prepare('SELECT * FROM users WHERE password = :password AND id = :id');
+    $check = $db->prepare('SELECT * FROM users WHERE id = :id');
     $check->execute(array(
-        'password' => $modifyPassword,
         'id' => $_SESSION['id']
     ));
     $data = $check->fetch();
     $row = $check->rowCount();
-    if ($row == 1) {
+    if (password_verify($modifyPassword, $data['PASSWORD'])) {
         if (!empty($_POST['modifyFirstName']) || !empty($_POST['modifyLastName']) || !empty($_POST['modifyMail'])) {
             if (!empty($_POST['modifyMail'])) {
                 $checkMail = $db->prepare('SELECT MAIL FROM users WHERE mail = ?');
