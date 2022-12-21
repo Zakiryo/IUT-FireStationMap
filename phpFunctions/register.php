@@ -23,7 +23,7 @@ if (!empty($_POST['registerUsername']) && !empty($_POST['registerMail']) && !emp
 
     if ($row == 0) {
         $registerPassword = password_hash($registerPassword, PASSWORD_DEFAULT);
-        $insert = $db->prepare("INSERT INTO `users` (`ID`, `USERNAME`, `LASTNAME`, `FIRSTNAME`, `PASSWORD`, `MAIL`, `ISADMIN`) VALUES (NULL, :username, :lastname, :firstname, :password, :mail, '0')");
+        $insert = $db->prepare("INSERT INTO `users` (`ID`, `USERNAME`, `LASTNAME`, `FIRSTNAME`, `PASSWORD`, `MAIL`) VALUES (NULL, :username, :lastname, :firstname, :password, :mail)");
         $insert->execute(array(
             'username' => $registerUsername,
             'lastname' => $registerLastName,
