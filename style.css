@@ -5,7 +5,7 @@ body {
 }
 
 #map {
-    height: 700px;
+    height: 770px;
     width: 100%;
 }
 
@@ -15,4 +15,28 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 0.5em;
+}
+
+@media screen and (max-width: 1200px) {
+    #welcome {
+        display: none;
+    }
+}
+
+@media screen and (max-height: 850px) {
+    #map {
+        height: 660px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #logo {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    #labelProfil {
+        font-size: 20px;
+    }
 }

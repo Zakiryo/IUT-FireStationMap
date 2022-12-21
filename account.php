@@ -21,7 +21,7 @@ if (!isset($_SESSION['username'])) {
 
 <body>
     <div class="head">
-        <img src="img/logo.svg" alt="" width="8%" height="8%">
+        <img src="img/logo.svg" alt="" width="8%" height="8%" onclick="window.location.href='map.php';" id="logo">
         <h2>Profil de <?php echo $_SESSION['username'] ?></h2>
         <h2><a href="account.php">Voir mon profil</a><br><a href="phpFunctions/disconnect.php">Se déconnecter</a>
         </h2>
@@ -39,7 +39,6 @@ if (!isset($_SESSION['username'])) {
                             <span class="col-md-6"><?php echo $_SESSION['lastname'] ?></span>
                         </div>
                         <span class="text-black-50"><?php echo $_SESSION['mainaddress'] ?></span>
-
                     </div>
                 </div>
                 <div class="col-md-5 border-right">
