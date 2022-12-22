@@ -134,7 +134,7 @@ function displayFavorites() {
 /**
  * Créer un itinéraire entre le marqueur sélectionné et l'adresse sélectionnée dans la liste déroulante
  * @param {*} coords Les coordonnées de la caserne cible
- * @param {*} address Libellé de l'adresse sélectionnée
+ * @param {string} address Libellé de l'adresse sélectionnée
  */
 function createRoute(coords, address) {
     const pointedAddress = function () {

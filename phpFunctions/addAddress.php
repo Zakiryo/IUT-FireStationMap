@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Ajout d'une nouvelle adresse secondaire pour l'utilisateur connecté
+ */
 session_start();
 require_once('database.php');
 if (!empty($_POST['newAddress']) && !empty($_POST['newCode']) && !empty($_POST['newCity'])) {

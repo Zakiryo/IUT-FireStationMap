@@ -1,4 +1,8 @@
 <?php
+
+/**
+ * Ajout d'une nouvelle caserne favorite pour l'utilisateur connecté
+ */
 session_start();
 require_once 'database.php';
 try {

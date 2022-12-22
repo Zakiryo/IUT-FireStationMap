@@ -1,4 +1,7 @@
 <?php
+/**
+ * Récupération de tous les favoris de l'utilisateur connecté
+ */
 session_start();
 require_once 'database.php';
 $check = $db->prepare("SELECT * FROM favorites WHERE USERID = :userid AND SECTOR = :sector");

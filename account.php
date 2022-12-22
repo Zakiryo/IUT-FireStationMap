@@ -127,7 +127,7 @@ if (!isset($_SESSION['username'])) {
                 <div class="col-md-6"><input type="text" maxlength=90 name="newCity" class="form-control" placeholder="Ville" value=""></div>
                 <div class="col-md-6"><input type="number" maxlength="5" min="10000" max="99999" name="newCode" class="form-control" value="" placeholder="Code postal"></div>
             </div>
-            <button type="submit" class="btn btn-outline-success" style="margin-top:1em;">Ajouter une nouvelle adresse</button>
+            <button type="submit" class="btn btn-outline-success" style="margin:1em;">Ajouter une nouvelle adresse</button>
         </form>
     </div>
 </body>
